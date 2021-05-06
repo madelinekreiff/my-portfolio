@@ -1,0 +1,124 @@
+/***** BASE STYLES *****/
+body {
+    color: #34677a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+/***** GRID *****/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+.half-width {
+    float: left;
+    width: 600px;
+}
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/***** HEADER & HEADINGS *****/
+header {
+    background: url('../img/beach-chairs.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+
+}
+h1 {
+    color: #10598f;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    margin: 120px 0 48px 120px;
+    text-align: center;
+    width: 600px;
+}
+h2 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    margin-left: 5px;
+    text-align: center;
+    width: 800px;
+}
+h3 {
+    color: #10598f;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    margin: 50px 0 105px 0;
+    text-align: center;
+}
+
+/***** MY PORTFOLIO *****/
+#my-portfolio {
+    background-color: #adc4d3;
+    border-top: 1px solid #82817c;
+    height: 1450px;
+    padding-bottom: 50px;
+}
+.image {
+    border: 5px solid #bab4a4;
+    margin: 0 0 26px 5px;
+}
+.heading {
+    color: #10598f;
+    line-height: 35px;
+    margin: 0 0 36px 45px;
+}
+.project-para {
+    line-height: 28px;
+    margin-left: 45px;
+    padding-right: 15px;
+
+}
+
+/***** ABOUT *****/
+#about {
+    background-color: #adc4d3;
+    border-top: 1px solid #82817c;
+    height: 650px;
+    padding-bottom: 170px;
+}
+#about img {
+    border: 5px solid #bab4a4;
+    margin: 115px 0 0 36px;
+}
+#about-statement {
+    color: #10598f;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 42px 45px;
+}
+#about-para {
+    line-height: 30px;
+    margin-left: 45px;
+    padding-right: 15px;
+}
+
+/***** CONTACT *****/
+#contact {
+    background-color: #bab4a4;
+    border-top: 1px solid #82817c;
+    height: 450px;
+    text-align: center;
+}
+.contact-heading {
+    color: #10598f;
+    margin-bottom: 30px;
+}
+.contact-para {
+    line-height: 30px;
+}
+#contact img {
+    margin: 0 10px;
+}
+
+/*** COPYRIGHT ***/
+footer {
+    background-color: #bab4a4;
+    font-size: 18px;
+    text-align: center;
+}
