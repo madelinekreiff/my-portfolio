@@ -1,7 +1,7 @@
 /***** BASE STYLES *****/
 body {
     color: #34677a;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     font-size: 24px;
 }
 
@@ -20,50 +20,117 @@ body {
     width: 400px;
 }
 
-/***** HEADER & HEADINGS *****/
-header {
-    background: url('../img/beach-chairs.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 800px;
+/***** BODY BACKGROUND *****/
+.lt-blue-body {
+    background-color: #adc4d3;
+}
 
-}
-h1 {
+/***** HEADER & NAV *****/
+.header {
+    background: url('../img/sky.jpg') no-repeat;
     color: #10598f;
-    font-family: 'Roboto Slab', serif;
-    font-size: 60px;
-    margin: 120px 0 48px 120px;
-    text-align: center;
-    width: 600px;
+    font-family: 'PT Sans', sans-serif;
 }
-h2 {
-    font-size: 48px;
+.header .full-width {
+    height: 100px;
+    margin: 0 20px -15px 20px;
+}
+.header h4 {
+    margin-top: 36px;
     font-weight: 400;
-    line-height: 56px;
-    margin-left: 5px;
-    text-align: center;
-    width: 800px;
 }
-h3 {
+nav {
+    float: right;
+    margin: 5px 20px 0 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 6px 0 0 20px;
+}
+nav ul li a {
     color: #10598f;
-    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
+
+/***** HEADINGS *****/
+.about h3, .portfolio h3, .contact h3 {
+    color: #10598f;
+    font-family: 'PT Sans', sans-serif;
     font-size: 36px;
     margin: 50px 0 105px 0;
     text-align: center;
 }
 
-/***** MY PORTFOLIO *****/
-#my-portfolio {
-    background-color: #adc4d3;
-    border-top: 1px solid #82817c;
-    height: 1450px;
-    padding-bottom: 50px;
+/***** HOME *****/
+.home {
+    height: 100%;
+    text-align: center;
 }
-.image {
+.home h1, .home h2 {
+    font-family: 'PT Sans', sans-serif;
+}
+.home h1 {
+    color: #10598f;
+    font-size: 60px;
+    margin: 60px 0;
+}
+.home-image {
+    background: url('../img/beach-chairs.png') no-repeat;
+    border: 5px solid #bab4a4;
+    height: 700px;
+    width: 1180px;
+}
+.home h2 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    margin: 80px 0 0 190px;
+    width: 800px;
+}
+
+/***** ABOUT *****/
+.about {
+    height: 100%;
+}
+.about-sq {
+    display: table;
+    height: 550px;
+}
+.about-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+.about-img {
+    border: 5px solid #bab4a4;
+}
+.about-statement {
+    color: #10598f;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.about-para {
+    line-height: 30px;
+    width: 580px;
+}
+
+/***** PORTFOLIO *****/
+.portfolio {
+    height: 100%;
+}
+.portfolio-sq {
+    display: table;
+    height: 500px;
+}
+.portfolio-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+.project-img {
     border: 5px solid #bab4a4;
     margin: 0 0 26px 5px;
 }
-.heading {
+.project-heading {
     color: #10598f;
     line-height: 35px;
     margin: 0 0 36px 45px;
@@ -72,38 +139,23 @@ h3 {
     line-height: 28px;
     margin-left: 45px;
     padding-right: 15px;
-
 }
 
-/***** ABOUT *****/
-#about {
-    background-color: #adc4d3;
-    border-top: 1px solid #82817c;
-    height: 650px;
-    padding-bottom: 170px;
-}
-#about img {
-    border: 5px solid #bab4a4;
-    margin: 115px 0 0 36px;
-}
-#about-statement {
-    color: #10598f;
-    font-size: 26px;
-    font-weight: 700;
-    margin: 0 0 42px 45px;
-}
-#about-para {
-    line-height: 30px;
-    margin-left: 45px;
-    padding-right: 15px;
-}
-
-/***** CONTACT *****/
-#contact {
-    background-color: #bab4a4;
-    border-top: 1px solid #82817c;
-    height: 450px;
+ /***** CONTACT *****/
+.contact {
+    height: 100%;
     text-align: center;
+}
+.contact-sq {
+    display: table;
+    height: 340px;
+}
+.contact-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+.beach-img {
+    border: 5px solid #bab4a4;
 }
 .contact-heading {
     color: #10598f;
@@ -112,13 +164,17 @@ h3 {
 .contact-para {
     line-height: 30px;
 }
-#contact img {
-    margin: 0 10px;
+.icon {
+    margin: 10px;
 }
 
-/*** COPYRIGHT ***/
-footer {
-    background-color: #bab4a4;
+/***** FOOTER *****/
+.copyright {
+    background: url('../img/sky.jpg') no-repeat;
+    color: #10598f;
     font-size: 18px;
+    height: 60px;
+    margin-top: 360px;
+    padding-top: 5px;
     text-align: center;
 }
