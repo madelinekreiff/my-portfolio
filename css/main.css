@@ -225,7 +225,7 @@ footer {
   align-items: center;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center
+  justify-content: center;
 }
 .about-statement {
   color: #10598f;
@@ -278,18 +278,16 @@ footer {
 .contact-sq {
   align-items: center;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: center;
   width: 100%;
 }
-.social-heading {
-  order: 2;
-}
-.social-img {
-  order: 1;
+.contact figure {
+  width: 80%;
 }
 .contact-txt {
   margin: 40px 0;
+  width: 100%;
 }
 .contact-txt p {
   text-align: center;
@@ -302,19 +300,17 @@ footer {
 .social-icons {
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .fontawesome-icon {
   align-items: center;
   display: flex;
   justify-content: center;
+  padding: 0 20px;
 }
 .fontawesome-icon i {
   color: #34677a;
   font-size: 1.75em;
-}
-.contact figure {
-  width: 80%;
 }
 
 
@@ -407,11 +403,67 @@ footer {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-  /* ----- Header, Footer, Home Page stay the same ----- */
+  /* ---------- Header, Footer, Home Page stay the same ---------- */
   .content-wrapper {
     margin: 0 50px;
-    max-width: 640px;
+    max-width: 700px;
   }
+
+  /* ---------- About Page ---------- */
+  .about {
+    min-height: 950px;
+  }
+  .about-article {
+    flex-wrap: nowrap;
+  }
+  .about-article figure {
+    margin-right: 40px;
+    width: 50%;
+  }
+  .about-txt {
+    width: 50%;
+  }
+
+  /* ---------- Portfolio Page ---------- */
+  .portfolio {
+    min-height: 1600px;
+  }
+  .project-article {
+    flex-wrap: nowrap;
+  }
+  .project-article figure {
+    margin-right: 40px;
+    width: 45%;
+  }
+  .project-txt {
+    width: 55%;
+  }
+
+  /* ---------- Contact Page ---------- */
+  .contact {
+    min-height: 1250px;
+  }
+  .contact-sq {
+    flex-flow: row nowrap;
+    margin: 40px 0 50px 0;
+  }
+  .contact-sq figure {
+    width: 50%;
+  }
+  .contact-txt {
+    width: 50%;
+  }
+  .contact-img {
+    margin-right: 40px;
+  }
+  .contact-img-switch {
+    margin-left: 40px;
+    order: 2;
+  }
+  .contact-txt-switch {
+    order: 1;
+  }
+
 }
 
 /* ==========================================================================
