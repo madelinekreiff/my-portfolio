@@ -167,10 +167,13 @@ address {
 
 /* ---------- Header & Nav ----------- */
 header {
+  align-items: center;
   background: url('../img/sky.jpg') center no-repeat #333;
   background-size: cover;
   color: #10598f;
+  display: flex;
   font-family: 'PT Sans', sans-serif;
+  justify-content: center;
   padding: 15px 0;
 }
 .header-divider {
@@ -189,8 +192,11 @@ nav ul li a {
 
 /* ---------- Footer ---------- */
 footer {
+  align-items: center;
   background: url('../img/sky.jpg') center no-repeat #333;
   background-size: cover;
+  display: flex;
+  justify-content: center;
   padding: 20px 0;
 }
 .copyright {
@@ -200,11 +206,19 @@ footer {
 
 /* ---------- Home Page ---------- */
 .home {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
   min-height: 700px;
 }
 
 /* ---------- About Page ---------- */
 .about {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
   min-height: 1100px;
 }
 .about-article {
@@ -222,6 +236,10 @@ footer {
 
 /* ---------- Portfolio Page ---------- */
 .portfolio {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
   min-height: 2250px;
 }
 .project-items {
@@ -245,6 +263,10 @@ footer {
 
  /* ---------- Contact Page ---------- */
 .contact {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
   min-height: 1550px;
 }
 .contact-items {
@@ -384,15 +406,12 @@ footer {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+@media only screen and (min-width: 768px) {
+  /* ----- Header, Footer, Home Page stay the same ----- */
+  .content-wrapper {
+    margin: 0 50px;
+    max-width: 640px;
+  }
 }
 
 /* ==========================================================================
