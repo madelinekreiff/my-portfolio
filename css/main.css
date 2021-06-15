@@ -403,10 +403,15 @@ footer {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-  /* ---------- Header, Footer, Home Page stay the same ---------- */
+  /* -------------------- Tablet Styles -------------------- */
   .content-wrapper {
     margin: 0 50px;
     max-width: 700px;
+  }
+
+  /* ---------- Home Page ---------- */
+  .home {
+    min-height: 800px;
   }
 
   /* ---------- About Page ---------- */
@@ -463,8 +468,53 @@ footer {
   .contact-txt-switch {
     order: 1;
   }
+} /* end tablet styles */
 
-}
+@media only screen and (min-width: 1200px) {
+  /* -------------------- Desktop Styles -------------------- */
+  .content-wrapper {
+    margin: 0 120px;
+    max-width: 1000px;
+  }
+
+  /* ---------- Header & Nav ---------- */
+  header .content-wrapper {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .header-divider {
+    border: none;
+    margin: 0;
+    width: 0;
+  }
+  header h1 {
+    width: 16%;
+  }
+  nav {
+    width: 84%;
+  }
+  nav ul {
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+  }
+  nav ul li {
+    padding-left: 20px;
+  }
+
+  /* ---------- min-height changes for each page ---------- */
+  .home {
+    min-height: 1000px;
+  }
+  .about {
+    min-height: 800px;
+  }
+  .portfolio {
+    min-height: 1500px;
+  }
+  .contact {
+    min-height: 1500px;
+  }
+} /* end desktop styles */
 
 /* ==========================================================================
    Print styles.
