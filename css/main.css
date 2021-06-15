@@ -86,188 +86,215 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/***** Base Styles *****/
+/* -------------------- Mobile Styles -------------------- */
+/* ---------- General Styles ---------- */
+html {
+  font-size: 16px;
+  height: 100%;
+  margin: 0;
+}
 body {
-    color: #34677a;
-    font-family: 'PT Serif', serif;
-    font-size: 24px;
+  background-color: #adc4d3;
+  color: #34677a;
+  font-family: 'PT Serif', serif;
+  font-size: 1em;
+  height: 100%;
+  margin: 0;
+}
+ul {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #10598f;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2.25em;
+  margin: 36px 0;
+}
+h2 {
+  color: #10598f;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1.16em;
+  margin: 36px 0;
+  text-align: center;
+}
+h3 {
+  color: #10598f;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.875em;
+  margin: 50px 0;
+}
+h4 {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 0;
+}
+p {
+  font-size: 1em;
+  line-height: 1.75em;
+  margin: 0;
+  text-align: justify;
+}
+img {
+  width: 100%;
+}
+figure {
+  align-items: center;
+  border: 5px solid #bab4a4;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+}
+address {
+  font-style: normal;
+}
+.content-wrapper {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 20px;
+  width: 90%;
 }
 
-/***** Grid *****/
-.full-width {
-    margin: 0 auto;
-    overflow: auto;
-    width: 1200px;
+/* ---------- Header & Nav ----------- */
+header {
+  background: url('../img/sky.jpg') center no-repeat #333;
+  background-size: cover;
+  color: #10598f;
+  font-family: 'PT Sans', sans-serif;
+  padding: 15px 0;
 }
-.half-width {
-    float: left;
-    width: 600px;
-}
-.third-width {
-    float: left;
-    width: 400px;
-}
-
-/***** Body Background *****/
-.lt-blue-body {
-    background-color: #adc4d3;
-}
-
-/***** Header *****/
-.header {
-    background: url('../img/sky.jpg') no-repeat;
-    color: #10598f;
-    font-family: 'PT Sans', sans-serif;
-}
-.header .full-width {
-    height: 100px;
-    margin: 0 20px -15px 20px;
-}
-.header h4 {
-    margin-top: 36px;
-    font-weight: 400;
-}
-
-/*** Nav ***/
-nav {
-    float: right;
-    margin: 5px 20px 0 0;
+.header-divider {
+  border: 1px solid #34677a;
+  margin: 15px 0;
+  width: 100%;
 }
 nav ul li {
-    display: inline-block;
-    margin: 6px 0 0 20px;
+  padding: 10px 0;
 }
 nav ul li a {
-    color: #10598f;
-    text-decoration: none;
+  color: #10598f;
+  text-decoration: none;
+  font-size: 1.125em;
 }
 
-/***** Headings *****/
-.about h3, .portfolio h3, .contact h3 {
-    color: #10598f;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 36px;
-    margin: 50px 0 105px 0;
-    text-align: center;
+/* ---------- Footer ---------- */
+footer {
+  background: url('../img/sky.jpg') center no-repeat #333;
+  background-size: cover;
+  padding: 20px 0;
+}
+.copyright {
+  color: #10598f;
+  font-size: 1.125em;
 }
 
-/***** Home Page *****/
+/* ---------- Home Page ---------- */
 .home {
-    height: 100%;
-    text-align: center;
-}
-.home h1, .home h2 {
-    font-family: 'PT Sans', sans-serif;
-}
-.home h1 {
-    color: #10598f;
-    font-size: 60px;
-    margin: 60px 0;
-}
-.home-image {
-    background: url('../img/beach-chairs.png') no-repeat;
-    border: 5px solid #bab4a4;
-    height: 700px;
-    width: 1180px;
-}
-.home h2 {
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 56px;
-    margin: 80px 0 0 190px;
-    width: 800px;
+  min-height: 700px;
 }
 
-/***** About Page *****/
+/* ---------- About Page ---------- */
 .about {
-    height: 100%;
+  min-height: 1100px;
 }
-.about-sq {
-    display: table;
-    height: 550px;
-}
-.about-center {
-    display: table-cell;
-    vertical-align: middle;
-}
-.about-img {
-    border: 5px solid #bab4a4;
+.about-article {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center
 }
 .about-statement {
-    color: #10598f;
-    font-size: 26px;
-    font-weight: 700;
-    margin-bottom: 50px;
-}
-.about-para {
-    line-height: 30px;
-    width: 580px;
+  color: #10598f;
+  font-size: 1.25em;
+  font-weight: 700;
+  margin: 50px 0;
 }
 
-/***** Portfolio Page *****/
+/* ---------- Portfolio Page ---------- */
 .portfolio {
-    height: 100%;
+  min-height: 2250px;
 }
-.portfolio-sq {
-    display: table;
-    height: 500px;
+.project-items {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
-.portfolio-center {
-    display: table-cell;
-    vertical-align: middle;
-}
-.project-img {
-    border: 5px solid #bab4a4;
-    margin: 0 0 26px 5px;
+.project-article {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 .project-heading {
-    color: #10598f;
-    line-height: 35px;
-    margin: 0 0 36px 45px;
-}
-.project-para {
-    line-height: 28px;
-    margin-left: 45px;
-    padding-right: 15px;
+  color: #10598f;
+  line-height: 2.18em;
+  margin: 18px 0 24px 0;
 }
 
- /***** Contact Page *****/
+ /* ---------- Contact Page ---------- */
 .contact {
-    height: 100%;
-    text-align: center;
+  min-height: 1550px;
+}
+.contact-items {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 .contact-sq {
-    display: table;
-    height: 340px;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 100%;
 }
-.contact-center {
-    display: table-cell;
-    vertical-align: middle;
+.social-heading {
+  order: 2;
 }
-.beach-img {
-    border: 5px solid #bab4a4;
+.social-img {
+  order: 1;
+}
+.contact-txt {
+  margin: 40px 0;
+}
+.contact-txt p {
+  text-align: center;
 }
 .contact-heading {
-    color: #10598f;
-    margin-bottom: 30px;
+  color: #10598f;
+  font-size: 1.25em;
+  margin-bottom: 30px;
 }
-.contact-para {
-    line-height: 30px;
+.social-icons {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
-.icon {
-    margin: 10px;
+.fontawesome-icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.fontawesome-icon i {
+  color: #34677a;
+  font-size: 1.75em;
+}
+.contact figure {
+  width: 80%;
 }
 
-/***** Footer *****/
-.copyright {
-    background: url('../img/sky.jpg') no-repeat;
-    color: #10598f;
-    font-size: 18px;
-    height: 60px;
-    margin-top: 360px;
-    padding-top: 5px;
-    text-align: center;
-}
 
 /* ==========================================================================
    Helper classes
