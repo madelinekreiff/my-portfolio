@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="../css/main.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -28,37 +29,31 @@
     
   <!-- ***** Header ***** -->
   <header class="header">
-    <div class="full-width">
-      <div class="half-width">
-        <h4>Madeline Reiff</h4>
-      </div>
-      <div class="half-width">
-        <!-- *** Nav *** -->
-        <nav>
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="index.html">About</a></li>
-            <li><a href="../portfolio/index.html">Portfolio</a></li>
-            <li><a href="../contact/index.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
+    <div class="content-wrapper">
+      <h4>Madeline Reiff</h4>
+      <!-- *** Nav *** -->
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="../portfolio/index.html">Portfolio</a></li>
+          <li><a href="../contact/index.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div> <!-- end content wrapper -->
   </header>
 
   <!-- ***** About Page ***** -->
   <main class="about">
-    <div class="full-width">
-      <h3>About Me</h3>
-      <div class="half-width about-sq">
-        <div class="about-center">
-          <img class="about-img" src="../img/headshot.jpg" alt="Headshot" />
-        </div>
-      </div>
-      <div class="half-width about-sq">
-        <div class="about-center">
-          <p class="about-statement"><em>I love combining creativity with technology.</em></p>
-          <p class="about-para">After graduating from the University of California, Santa Barbara 
+      <div class="content-wrapper">
+        <h3>About Me</h3>
+        <article class="about-article">
+          <figure>
+            <img class="about-img" src="../img/headshot.jpg" alt="Headshot">
+          </figure>
+          <div class="about-txt">
+            <p class="about-statement"><em>I love combining creativity with technology.</em></p>
+            <p class="about-para">After graduating from the University of California, Santa Barbara 
                 with a degree in Statistical Science, I orginally wanted to pursue a career in 
                 data analysis. The programming languages and technology always intrigued me. 
                 However, I realized I needed more creativity, which led me to discover front-end 
@@ -66,17 +61,17 @@
                 in the technololgy world.<br><br>
                 A couple fun facts about me is I love the beach, hence the beach theme throughout 
                 this website. Also, I was a Division 1 cheerleader for UC Santa Barbara. Go Gauchos!
-          </p>
-        </div>
-      </div>
-    </div>
+            </p>
+          </div>
+        </article>
+      </div> <!-- end content wrapper -->
   </main>
 
   <!-- ***** Footer ***** -->
   <footer class="copyright">
-    <div class="full-width">
+    <div class="content-wrapper">
       <p>&copy; Copyright 2021 | Madeline Reiff</p>
-    </div>
+    </div> <!-- end content wrapper -->
   </footer>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>

@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="../css/main.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -28,97 +29,89 @@
     
   <!-- ***** Header ***** -->
   <header class="header">
-    <div class="full-width">
-      <div class="half-width">
-        <h4>Madeline Reiff</h4>
-      </div>
-      <div class="half-width">
-        <!-- *** Nav *** -->
-        <nav>
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../about/index.html">About</a></li>
-            <li><a href="index.html">Portfolio</a></li>
-            <li><a href="../contact/index.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
+    <div class="content-wrapper">
+      <h4>Madeline Reiff</h4>
+      <!-- *** Nav *** -->
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about/index.html">About</a></li>
+          <li><a href="index.html">Portfolio</a></li>
+          <li><a href="../contact/index.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div> <!-- end content wrapper -->
   </header>
 
   <!-- ***** Portfolio Page ***** -->
   <main class="portfolio">
-    <!-- *** Project 1 *** -->
-    <div class="full-width">
+    <div class="content-wrapper">
       <h3>My Portfolio</h3>
-      <div class="half-width portfolio-sq">
-        <div class="portfolio-center">
-          <img class="project-img" src="../img/jubilee-austen.png" alt="Jubilee Austen Image" />
-        </div>
-      </div>
-      <div class="half-width portfolio-sq">
-        <div class="portfolio-center">
-          <p class="project-heading"><strong>Jubilee Austen Portfolio</strong><br>
-              <em>HTML, CSS, Adobe Photoshop, Visual Studio Code</em>
-          </p>
-          <p class="project-para">Using HTML and CSS, I created a static portfolio 
-              website. This was a project I completed through Skillcrush, an online 
-              coding program. I used a Photoshop design comp to extract font styles, 
-              colors and measurements to replicate the design in CSS, while using HTML 
-              to structure the content. I wrote all of the code in Visual Studio Code.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- *** Project 2 *** -->
-    <div class="full-width">
-      <div class="half-width portfolio-sq">
-        <div class="portfolio-center">
-          <img class="project-img" src="../img/rogue-pickings.png" alt="Rogue Pickings Image" />
-        </div>
-      </div>
-      <div class="half-width portfolio-sq">
-        <div class="portfolio-center">
-          <p class="project-heading"><strong>Rogue Pickings Website</strong><br>
-              <em>HTML, CSS, Adobe Photoshop, Visual Studio Code</em>
-          </p>
-          <p class="project-para">This is another Skillcrush project where I used Visual 
-              Studio Code and a Photoshop design comp to create a website for a restaurant. 
-              It included an About & Contact section, Menu, Customer Reviews and a link to 
-              its location on Google Maps. This project focused heavily on structuring navigation 
-              bars and links in HTML and styling them in CSS, which I was able to master.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- *** Project 3 *** -->
-    <div class="full-width">
-      <div class="half-width portfolio-sq">
-        <div class="portfolio-center">
-          <img class="project-img" src="../img/recipe-card.png" alt="Recipe Card Image" />
-        </div>
-      </div>
-      <div class="half-width portfolio-sq">
-        <div class="portfolio-center">
-          <p class="project-heading"><strong>Recipe Card Project</strong><br>
-              <em>HTML, CSS, Visual Studio Code</em>
-          </p>
-          <p class="project-para">In this Skillcrush project, I used CSS to style the provided 
-              HTML content in Visual Studio Code. There was no design comp, so I estimated the 
-              measurements by hand and was given a style guide to refer back to with the required 
-              fonts and colors. The main goal was to learn and practice additional complex CSS 
-              styles to create a clean layout.
-          </p>
-        </div>
-      </div>
-    </div>
+
+      <div class="project-items">
+        <!-- *** Project 1 *** -->
+        <article class="project-article">
+          <figure>
+            <img class="project-img" src="../img/jubilee-austen.png" alt="Jubilee Austen Image">
+          </figure>
+          <div class="project-txt">
+            <p class="project-heading"><strong>Jubilee Austen Portfolio</strong><br>
+                <em>HTML, CSS, Adobe Photoshop, Visual Studio Code</em>
+            </p>
+            <p class="project-para">Using HTML and CSS, I created a static portfolio 
+                website. This was a project I completed through Skillcrush, an online 
+                coding program. I used a Photoshop design comp to extract font styles, 
+                colors and measurements to replicate the design in CSS, while using HTML 
+                to structure the content. I wrote all of the code in Visual Studio Code.
+            </p>
+          </div> <!-- end project 1 txt -->
+        </article>
+
+        <!-- *** Project 2 *** -->
+        <article class="project-article">
+          <figure>
+            <img class="project-img" src="../img/rogue-pickings.png" alt="Rogue Pickings Image">
+          </figure>
+          <div class="project-txt">
+            <p class="project-heading"><strong>Rogue Pickings Website</strong><br>
+                <em>HTML, CSS, Adobe Photoshop, Visual Studio Code</em>
+            </p>
+            <p class="project-para">This is another Skillcrush project where I used Visual 
+                Studio Code and a Photoshop design comp to create a website for a restaurant. 
+                It included an About & Contact section, Menu, Customer Reviews and a link to 
+                its location on Google Maps. This project focused heavily on structuring navigation 
+                bars and links in HTML and styling them in CSS, which I was able to master.
+            </p>
+          </div> <!-- end project 2 txt -->
+        </article>
+
+        <!-- *** Project 3 *** -->
+        <article class="project-article">
+          <figure>
+            <img class="project-img" src="../img/recipe-card.png" alt="Recipe Card Image">
+          </figure>
+          <div class="project-txt">
+            <p class="project-heading"><strong>Recipe Card Project</strong><br>
+                <em>HTML, CSS, Visual Studio Code</em>
+            </p>
+            <p class="project-para">In this Skillcrush project, I used CSS to style the provided 
+                HTML content in Visual Studio Code. There was no design comp, so I estimated the 
+                measurements by hand and was given a style guide to refer back to with the required 
+                fonts and colors. The main goal was to learn and practice additional complex CSS 
+                styles to create a clean layout.
+            </p>
+          </div> <!-- end project 3 txt -->
+        </article>
+      </div> <!-- end project items -->
+
+    </div> <!-- end content wrapper -->
   </main>
 
   <!-- ***** Footer ***** -->
   <footer class="copyright">
-    <div class="full-width">
+    <div class="content-wrapper">
       <p>&copy; Copyright 2021 | Madeline Reiff</p>
-    </div>
+    </div> <!-- end content wrapper -->
   </footer>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
