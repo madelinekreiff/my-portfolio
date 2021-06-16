@@ -445,38 +445,26 @@ footer {
 
   /* ---------- About Page ---------- */
   .about {
-    min-height: 1000px;
+    min-height: 1180px;
   }
-  .about-article {
-    flex-wrap: nowrap;
-  }
-  .about-article figure {
-    margin-right: 40px;
-    width: 50%;
+  .about-article figure,
+  .about-txt {
+    width: 80%;
   }
   .about-statement {
     font-size: 1.375em;
   }
-  .about-txt {
-    width: 50%;
-  }
 
   /* ---------- Portfolio Page ---------- */
   .portfolio {
-    min-height: 1700px;
+    min-height: 2450px;
   }
-  .project-article {
-    flex-wrap: nowrap;
-  }
-  .project-article figure {
-    margin-right: 40px;
-    width: 45%;
+  .project-article figure,
+  .project-txt {
+    width: 80%;
   }
   .project-heading {
     line-height: 1.94em;
-  }
-  .project-txt {
-    width: 55%;
   }
 
   /* ---------- Contact Page ---------- */
@@ -555,16 +543,42 @@ footer {
     font-size: 1.25em;
   }
 
-  /* ---------- min-height changes for each page ---------- */
+  /* ---------- Home Page ---------- */
   .home {
     min-height: 1050px;
   }
+
+  /* ---------- About Page ---------- */
   .about {
     min-height: 850px;
   }
+  .about-article {
+    flex-wrap: nowrap;
+  }
+  .about-article figure {
+    margin-right: 40px;
+    width: 50%;
+  }
+  .about-txt {
+    width: 50%;
+  }
+
+  /* ---------- Portfolio Page ---------- */
   .portfolio {
     min-height: 1450px;
   }
+  .project-article {
+    flex-wrap: nowrap;
+  }
+  .project-article figure {
+    margin-right: 40px;
+    width: 45%;
+  }
+  .project-txt {
+    width: 55%;
+  }
+
+  /* ---------- Contact Page ---------- */
   .contact {
     min-height: 1550px;
   }
