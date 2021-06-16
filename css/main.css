@@ -102,10 +102,6 @@ body {
   margin: 0;
 }
 ul {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -181,6 +177,18 @@ header {
   margin: 15px 0;
   width: 100%;
 }
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
 nav ul li {
   padding: 10px 0;
 }
@@ -201,7 +209,7 @@ footer {
 }
 .copyright {
   color: #10598f;
-  font-size: 1.125em;
+  font-size: 1em;
 }
 
 /* ---------- Home Page ---------- */
@@ -267,7 +275,7 @@ footer {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
-  min-height: 1550px;
+  min-height: 1600px;
 }
 .contact-items {
   align-items: center;
@@ -404,9 +412,30 @@ footer {
 
 @media only screen and (min-width: 768px) {
   /* -------------------- Tablet Styles -------------------- */
+  /* ---------- General Styles ---------- */
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 1.75em;
+  }
+  h3 {
+    font-size: 2.125em;
+  }
+  h4 {
+    font-size: 1.75em;
+  }
+  p {
+    font-size: 1.125em;
+  }
   .content-wrapper {
     margin: 0 50px;
     max-width: 700px;
+  }
+
+  /* ----------  Nav ----------*/
+  nav ul li a {
+    font-size: 1.375em;
   }
 
   /* ---------- Home Page ---------- */
@@ -416,7 +445,7 @@ footer {
 
   /* ---------- About Page ---------- */
   .about {
-    min-height: 950px;
+    min-height: 1000px;
   }
   .about-article {
     flex-wrap: nowrap;
@@ -425,13 +454,16 @@ footer {
     margin-right: 40px;
     width: 50%;
   }
+  .about-statement {
+    font-size: 1.375em;
+  }
   .about-txt {
     width: 50%;
   }
 
   /* ---------- Portfolio Page ---------- */
   .portfolio {
-    min-height: 1600px;
+    min-height: 1700px;
   }
   .project-article {
     flex-wrap: nowrap;
@@ -440,13 +472,16 @@ footer {
     margin-right: 40px;
     width: 45%;
   }
+  .project-heading {
+    line-height: 1.94em;
+  }
   .project-txt {
     width: 55%;
   }
 
   /* ---------- Contact Page ---------- */
   .contact {
-    min-height: 1250px;
+    min-height: 1200px;
   }
   .contact-sq {
     flex-flow: row nowrap;
@@ -454,6 +489,9 @@ footer {
   }
   .contact-sq figure {
     width: 50%;
+  }
+  .contact-heading {
+    font-size: 1.375em;
   }
   .contact-txt {
     width: 50%;
@@ -468,12 +506,24 @@ footer {
   .contact-txt-switch {
     order: 1;
   }
+  .fontawesome-icon i {
+    font-size: 1.875em;
+  }
 } /* end tablet styles */
 
 @media only screen and (min-width: 1200px) {
   /* -------------------- Desktop Styles -------------------- */
+  /* ---------- General Styles ---------- */
+  h1 {
+    font-size: 2.75em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h4 {
+    font-size: 1.625em;
+  }
   .content-wrapper {
-    margin: 0 120px;
     max-width: 1000px;
   }
 
@@ -488,10 +538,11 @@ footer {
     width: 0;
   }
   header h1 {
-    width: 16%;
+    width: 17%;
   }
   nav {
-    width: 84%;
+    justify-content: flex-end;
+    width: 83%;
   }
   nav ul {
     flex-flow: row nowrap;
@@ -500,19 +551,22 @@ footer {
   nav ul li {
     padding-left: 20px;
   }
+  nav ul li a {
+    font-size: 1.25em;
+  }
 
   /* ---------- min-height changes for each page ---------- */
   .home {
-    min-height: 1000px;
+    min-height: 1050px;
   }
   .about {
-    min-height: 800px;
+    min-height: 850px;
   }
   .portfolio {
-    min-height: 1500px;
+    min-height: 1450px;
   }
   .contact {
-    min-height: 1500px;
+    min-height: 1550px;
   }
 } /* end desktop styles */
 
