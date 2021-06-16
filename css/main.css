@@ -508,6 +508,7 @@ footer {
   }
   h2 {
     font-size: 2em;
+    width: 90%;
   }
   h4 {
     font-size: 1.625em;
@@ -547,6 +548,9 @@ footer {
   /* ---------- Home Page ---------- */
   .home {
     min-height: 1050px;
+  }
+  .home figure {
+    width: 90%;
   }
 
   /* ---------- About Page ---------- */
