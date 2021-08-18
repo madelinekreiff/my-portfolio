@@ -249,7 +249,7 @@ footer {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
-  min-height: 4300px;
+  min-height: 6325px;
 }
 .project-items {
   align-items: center;
@@ -467,7 +467,7 @@ footer {
 
   /* ---------- Portfolio Page ---------- */
   .portfolio {
-    min-height: 2050px;
+    min-height: 2725px;
   }
   .project-article {
     margin-bottom: 40px;
@@ -586,7 +586,7 @@ footer {
 
   /* ---------- Portfolio Page ---------- */
   .portfolio {
-    min-height: 2600px;
+    min-height: 3550px;
   }
 
   /* ---------- Contact Page ---------- */
