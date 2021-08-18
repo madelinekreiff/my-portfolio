@@ -249,12 +249,12 @@ footer {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
-  min-height: 2250px;
+  min-height: 4300px;
 }
 .project-items {
   align-items: center;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
 }
 .project-article {
@@ -262,12 +262,21 @@ footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin-bottom: 100px;
+}
+.project-images {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.project-images figure {
+  margin-bottom: 50px;
 }
 .project-heading {
   color: #10598f;
+  font-size: 1.75em;
   line-height: 2.18em;
-  margin: 18px 0 24px 0;
+  margin-bottom: 30px;
 }
 
  /* ---------- Contact Page ---------- */
@@ -458,13 +467,20 @@ footer {
 
   /* ---------- Portfolio Page ---------- */
   .portfolio {
-    min-height: 2450px;
+    min-height: 2050px;
   }
-  .project-article figure,
-  .project-txt {
-    width: 80%;
+  .project-article {
+    margin-bottom: 40px;
+  }
+  .project-images figure {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 45%;
   }
   .project-heading {
+    font-size: 2em;
     line-height: 1.94em;
   }
 
@@ -570,17 +586,7 @@ footer {
 
   /* ---------- Portfolio Page ---------- */
   .portfolio {
-    min-height: 1450px;
-  }
-  .project-article {
-    flex-wrap: nowrap;
-  }
-  .project-article figure {
-    margin-right: 40px;
-    width: 45%;
-  }
-  .project-txt {
-    width: 55%;
+    min-height: 2600px;
   }
 
   /* ---------- Contact Page ---------- */
