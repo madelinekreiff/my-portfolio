@@ -46,7 +46,7 @@
       "img": "img/javascript/election-map.png",
       "languages": "JavaScript",
       "tools": "Visual Studio Code",
-      "description": "",
+      "description": "Created a dynamic map of the U.S. with results of an imaginary election. Election results from each state are dynamically changed in a table when the mouse moves over each state on the map. Using JavaScript, I mastered writing functions, loops, and array operations while accessing the DOM to connect JavaScript to the visual HTML.",
       "url": "https://madelinekreiff.github.io/election-map/"
     },
 
@@ -56,7 +56,7 @@
       "img": "img/javascript/github-repo-gallery.png",
       "languages": "JavaScript",
       "tools": "Visual Studio Code",
-      "description": "",
+      "description": "Used JavaScript and the GitHub API to fetch my GitHub profile and create a gallery of repos and their descriptions. Created a dynamic search bar to filter through repos and make searching easier. This project was the inspiration for the portfolio section of my website that you are currently on! It utilizes JavaScript async functions to connect to an API, as well as event handlers and listeners to interact with the DOM. I also learned how to remove and add CSS classes through JavaScript.",
       "url": "https://madelinekreiff.github.io/github-repo-gallery/"
     },
 
@@ -66,7 +66,7 @@
       "img": "img/javascript/guess-the-word.png",
       "languages": "JavaScript",
       "tools": "Visual Studio Code",
-      "description": "",
+      "description": "Used JavaScript to program an interactive computer game by accessing the DOM to create event listeners and functions, as well as use loops and conditional statements. Want to play the game? Check out the link below!",
       "url": "https://madelinekreiff.github.io/guess-the-word/"
     },
 
@@ -76,7 +76,7 @@
       "img": "img/javascript/drumkit.png",
       "languages": "JavaScript",
       "tools": "Visual Studio Code",
-      "description": "",
+      "description": "Interacted with the DOM in JavaScript to create a keydown event that plays a specific audio from a drum set when a corresponding key is pressed. Feel free to check it out yourself!",
       "url": "https://madelinekreiff.github.io/js30-drumkikt01/"
     },
 
@@ -86,7 +86,7 @@
       "img": "img/javascript/clock.png",
       "languages": "JavaScript",
       "tools": "Visual Studio Code",
-      "description": "",
+      "description": "Created an automatic analog clock that tracks the current time at all hours through JavaScript functions. I used conditional statements, hand written functions, and built in time functions to do so. I became familiar with using JavaScript to update CSS styles.",
       "url": "https://madelinekreiff.github.io/js30-clock02/"
     },
 
@@ -96,7 +96,7 @@
       "img": "img/javascript/css-variables.png",
       "languages": "JavaScript",
       "tools": "Visual Studio Code",
-      "description": "",
+      "description": "Used JavaScript to access DOM elements with event listeners to change CSS styles of an image such as spacing, blurring, and background color based on input from a range sliding bar. I used event listeners and handlers to listen for the sliding bar being moved, which then resulted in a CSS style being changed.",
       "url": "https://madelinekreiff.github.io/js30-css-variables03/"
     },
 
@@ -106,7 +106,7 @@
       "img": "img/javascript/flex-panels.png",
       "languages": "JavaScript",
       "tools": "Visual Studio Code",
-      "description": "",
+      "description": "Implemented CSS classes with flex and transform styles, which were then used in JavaScript event listeners to toggle on and off. The classes transition in and out based on a cubic bezier. Click on each panel on the web page and see what happens!",
       "url": "https://madelinekreiff.github.io/js30-flex-panel-gallery05/"
     },
 
@@ -116,7 +116,7 @@
       "img": "img/javascript/type-ahead.png",
       "languages": "JavaScript",
       "tools": "Visual Studio Code",
-      "description": "",
+      "description": "Using JavaScript, created a dynamic search box for a list of cities and their corresponding states and populations. Searches created a regular expression which were used to find and display matches. I used async functions to fetch the data from an API and used objects and arrays to hold the desired data. An event handler is triggered every time a key is typed into the search bar to update the results.",
       "url": "https://madelinekreiff.github.io/js30-type-ahead06/"
     },
 
@@ -126,7 +126,7 @@
       "img": "img/javascript/html5-canvas.png",
       "languages": "JavaScript",
       "tools": "Visual Studio Code",
-      "description": "",
+      "description": "Used HTML5 canvas and JavaScript to create a tool that draws rainbow lines as the mouse drags across the page. Worked with .getContext() and different attributes to change stroke styles and colors. I learned a lot of new features from this project from changing the hue and line width based on conditional statements. I also learned about mousedown, mouseup and mousemove event listeners which together is what creates the dragging motion on a mousepad.",
       "url": "https://madelinekreiff.github.io/js30-html5-canvas08/"
     },
 
@@ -136,8 +136,8 @@
       "img": "img/react/sticky-notes.png",
       "languages": "JavaScript with React library",
       "tools": "CodeSandbox",
-      "description": "https://d9r29.csb.app/",
-      "url": "https://madelinekreiff.github.io/sticky-/"
+      "description": "This greenfield project allowed me to explore React components (stateful and functional). I got a lot of practice in using props to transfer certain information over to different components. By learning how to use React libraries to render specific JSX, I created a Sticky Notes App to create, edit, and search notes. This app also will retain all of your previous notes if you refresh the page. Check it out below!",
+      "url": "https://d9r29.csb.app/"
     },
 
     {
@@ -146,8 +146,8 @@
       "img": "img/react/hotels-filter.png",
       "languages": "JavaScript with React library",
       "tools": "CodeSandbox",
-      "description": "https://vhkzc.csb.app/",
-      "url": "https://madelinekreiff.github.io/guess-the-word/"
+      "description": "In this project, I updated functional components from provided React code to make them stateful. This website works just as any other hotel booking website would. Search results can be filtered by the Filter By bar on the side. The use of props was very handy in this challenge. I was also able to master updating the state of the data models that were created to render the proper JSX.",
+      "url": "https://vhkzc.csb.app/"
     },
 
     {
@@ -156,8 +156,8 @@
       "img": "img/react/name-tag-generator.png",
       "languages": "JavaScript with React library",
       "tools": "CodeSandbox",
-      "description": "https://kblbx.csb.app/",
-      "url": "https://madelinekreiff.github.io/guess-the-word/"
+      "description": "Using stateful compoennts in the React library, I updated the state of the data models to render specific JSX. This name tag generator cretes a name tag for any name you enter into the box! I mastered the skill of creating methods within components that act as event handlers when called through event listeners. By using props and having separate components for each distinctive JSX code, I was able to create clean, efficient and most importantly reusable code. I made these important changes to provided React code.",
+      "url": "https://kblbx.csb.app/"
     },
 
     {
@@ -166,8 +166,8 @@
       "img": "img/react/color-palette.png",
       "languages": "JavaScript with React library",
       "tools": "CodeSandbox",
-      "description": "https://3hntg.csb.app/",
-      "url": "https://madelinekreiff.github.io/guess-the-word/"
+      "description": "This app allows you to create your own color palette by clicking the heart icon that appears as your mouse hovers over a selected color. This project's goal was to explore the difference between presentational and functional components. By updating provided React code, I got to see firsthand how presentational components focus on the visual aspect of a website (usually through functional components), whereas container components focus on the layout of the visual aspects (usually through stateful components).",
+      "url": "https://3hntg.csb.app/"
     }
   ]
 }
