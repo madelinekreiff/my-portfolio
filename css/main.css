@@ -281,6 +281,11 @@ footer {
   margin-bottom: 30px;
 }
 
+/* ----- Portfolio Projects ----- */
+.hide {
+  display: none;
+}
+
  /* ---------- Contact Page ---------- */
 .contact {
   align-items: center;
