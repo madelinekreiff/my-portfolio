@@ -6,7 +6,18 @@
       "img": "img/html-css/jubilee-austen.png",
       "languages": "HTML, CSS",
       "tools": "Adobe Photoshop, Visual Studio Code",
-      "description": "Using HTML and CSS, I created a responsive portfolio website. This was a project I completed through Skillcrush, an online coding program. I used a Photoshop design comp to extract font styles, colors and measurements to replicate the design in CSS, while using HTML to structure the content. I wrote all of the code in Visual Studio Code."
+      "description": "Using HTML and CSS, I created a responsive portfolio website. This was a project I completed through Skillcrush, an online coding program. I used a Photoshop design comp to extract font styles, colors and measurements to replicate the design in CSS, while using HTML to structure the content. I wrote all of the code in Visual Studio Code.",
+      "url": "https://madelinekreiff.github.io/jubilee-austen/"
+    },
+
+    {
+      "id": "unpluggedRetreat",
+      "name": "Unplugged Retreat",
+      "img": "img/html-css/unplugged-retreat.png",
+      "languages": "HTML, CSS",
+      "tools": "Adobe Photoshop, Visual Studio Code",
+      "description": "Unplugged Retreat is a website for a business that provides company retreat services. This was the first project where I challenged myself to create this website project on my own with no hints or guidance through Skillcrush's course. I used a Photoshop design comp to determine specific fonts, spacing, and colors. When developing this website, I used a Mobile First design process to create a responsive web page for any browsing device. There are breakpoints in the CSS code for tablet and desktop widths and flexbox styles for an easy yet efficient layout.",
+      "url": "https://madelinekreiff.github.io/unplugged-retreat/"
     },
   
     {
@@ -15,7 +26,8 @@
       "img": "img/html-css/rogue-pickings.png",
       "languages": "HTML, CSS",
       "tools": "Adobe Photoshop, Visual Studio Code",
-      "description": "This is another Skillcrush project where I used Visual Studio Code and a Photoshop design comp to create a website for a restaurant. It included an About & Contact section, Menu, Customer Reviews and a link to its location on Google Maps. This project focused heavily on structuring navigation bars and links in HTML and styling them in CSS, which I was able to master."
+      "description": "This is another Skillcrush project where I used Visual Studio Code and a Photoshop design comp to create a website for a restaurant. It included an About & Contact section, Menu, Customer Reviews and a link to its location on Google Maps. This project focused heavily on structuring navigation bars and links in HTML and styling them in CSS, which I was able to master.",
+      "url": "https://madelinekreiff.github.io/rogue-pickings/"
     },
   
     {
@@ -24,7 +36,138 @@
       "img": "img/html-css/recipe-card.png",
       "languages": "HTML, CSS",
       "tools": "Visual Studio Code",
-      "description": "In this Skillcrush project, I used CSS to style the provided HTML content in Visual Studio Code. There was no design comp, so I estimated the measurements by hand and was given a style guide to refer back to with the required fonts and colors. The main goal was to learn and practice additional complex CSS styles to create a clean layout."
+      "description": "In this Skillcrush project, I used CSS to style the provided HTML content in Visual Studio Code. There was no design comp, so I estimated the measurements by hand and was given a style guide to refer back to with the required fonts and colors. The main goal was to learn and practice additional complex CSS styles to create a clean layout.",
+      "url": "https://madelinekreiff.github.io/recipe-card/"
+    },
+
+    {
+      "id": "electionMap",
+      "name": "Election Map",
+      "img": "img/javascript/election-map.png",
+      "languages": "JavaScript",
+      "tools": "Visual Studio Code",
+      "description": "",
+      "url": "https://madelinekreiff.github.io/election-map/"
+    },
+
+    {
+      "id": "githubRepo",
+      "name": "GitHub Repo Gallery",
+      "img": "img/javascript/github-repo-gallery.png",
+      "languages": "JavaScript",
+      "tools": "Visual Studio Code",
+      "description": "",
+      "url": "https://madelinekreiff.github.io/github-repo-gallery/"
+    },
+
+    {
+      "id": "guessTheWord",
+      "name": "Guess the Word Game",
+      "img": "img/javascript/guess-the-word.png",
+      "languages": "JavaScript",
+      "tools": "Visual Studio Code",
+      "description": "",
+      "url": "https://madelinekreiff.github.io/guess-the-word/"
+    },
+
+    {
+      "id": "drumkit",
+      "name": "Drumkit",
+      "img": "img/javascript/drumkit.png",
+      "languages": "JavaScript",
+      "tools": "Visual Studio Code",
+      "description": "",
+      "url": "https://madelinekreiff.github.io/js30-drumkikt01/"
+    },
+
+    {
+      "id": "clock",
+      "name": "Clock (current time)",
+      "img": "img/javascript/clock.png",
+      "languages": "JavaScript",
+      "tools": "Visual Studio Code",
+      "description": "",
+      "url": "https://madelinekreiff.github.io/js30-clock02/"
+    },
+
+    {
+      "id": "cssVariables",
+      "name": "Updating CSS Variables",
+      "img": "img/javascript/css-variables.png",
+      "languages": "JavaScript",
+      "tools": "Visual Studio Code",
+      "description": "",
+      "url": "https://madelinekreiff.github.io/js30-css-variables03/"
+    },
+
+    {
+      "id": "flexPanels",
+      "name": "Flex Panels",
+      "img": "img/javascript/flex-panels.png",
+      "languages": "JavaScript",
+      "tools": "Visual Studio Code",
+      "description": "",
+      "url": "https://madelinekreiff.github.io/js30-flex-panel-gallery05/"
+    },
+
+    {
+      "id": "typeAhead",
+      "name": "Type Ahead Search Bar",
+      "img": "img/javascript/type-ahead.png",
+      "languages": "JavaScript",
+      "tools": "Visual Studio Code",
+      "description": "",
+      "url": "https://madelinekreiff.github.io/js30-type-ahead06/"
+    },
+
+    {
+      "id": "html5Canvas",
+      "name": "HTML5 Canvas",
+      "img": "img/javascript/html5-canvas.png",
+      "languages": "JavaScript",
+      "tools": "Visual Studio Code",
+      "description": "",
+      "url": "https://madelinekreiff.github.io/js30-html5-canvas08/"
+    },
+
+    {
+      "id": "stickyNotes",
+      "name": "Sticky Notes App",
+      "img": "img/react/sticky-notes.png",
+      "languages": "JavaScript with React library",
+      "tools": "CodeSandbox",
+      "description": "https://d9r29.csb.app/",
+      "url": "https://madelinekreiff.github.io/sticky-/"
+    },
+
+    {
+      "id": "hotelsFilter",
+      "name": "Hotels Filter Website",
+      "img": "img/react/hotels-filter.png",
+      "languages": "JavaScript with React library",
+      "tools": "CodeSandbox",
+      "description": "https://vhkzc.csb.app/",
+      "url": "https://madelinekreiff.github.io/guess-the-word/"
+    },
+
+    {
+      "id": "nameTag",
+      "name": "Name Tag Generator",
+      "img": "img/react/name-tag-generator.png",
+      "languages": "JavaScript with React library",
+      "tools": "CodeSandbox",
+      "description": "https://kblbx.csb.app/",
+      "url": "https://madelinekreiff.github.io/guess-the-word/"
+    },
+
+    {
+      "id": "colorPalette",
+      "name": "Color Palette Project",
+      "img": "img/react/color-palette.png",
+      "languages": "JavaScript with React library",
+      "tools": "CodeSandbox",
+      "description": "https://3hntg.csb.app/",
+      "url": "https://madelinekreiff.github.io/guess-the-word/"
     }
   ]
 }
