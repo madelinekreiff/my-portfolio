@@ -285,6 +285,12 @@ footer {
 .hide {
   display: none;
 }
+.project-items figure:hover {
+  cursor: pointer;
+}
+.hover-img {
+  background-color: #333;
+}
 
  /* ---------- Contact Page ---------- */
 .contact {
