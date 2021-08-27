@@ -6,8 +6,6 @@ const projectItems = document.querySelector(".project-items");
 const title = document.querySelector(".title");
 // variable for the portfolio class to change the min-height
 const portfolio = document.querySelector(".portfolio")
-// variable for all of the project images
-const figures = document.querySelectorAll(".project-items figure");
 
 // get portfolio project data from a local json server (portfolio.json)
 const getData = async function () {
@@ -64,7 +62,3 @@ const displayProjectInfo = (data) => {
 
 getData();
 
-figures.addEventListener("mouseover", function() {
-  const div = document.createElement("div");
-  div.classList.add("hover-img");
-});
