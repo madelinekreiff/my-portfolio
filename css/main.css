@@ -286,9 +286,14 @@ footer {
   position: relative;
 }
 .hover {
+  color: #fff;
+  font-size: 1.5em;
   height: 100%;
   left: 0;
+  opacity: 0;
+  padding-top: 130px;
   position: absolute;
+  text-align: center;
   top: 0;
   width: 100%;
 }
@@ -297,20 +302,6 @@ footer {
   cursor: pointer;
   opacity: 0.9;
   transition: background-color 0.5s;
-}
-.click{
-  color: #fff;
-  font-size: 1.5em;
-  height: 100%;
-  opacity: 0;
-  position: absolute;
-  text-align: center;
-  top: 40%;
-  width: 100%;
-}
-.click:hover {
-  opacity: 1;
-  transition: opacity 0.5s;
 }
 
 /* ----- Portfolio Projects ----- */
