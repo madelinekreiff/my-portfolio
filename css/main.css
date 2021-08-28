@@ -310,7 +310,7 @@ footer {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
-  min-height: 1250px;
+  min-height: 1350px;
 }
 .info {
   align-items: center;

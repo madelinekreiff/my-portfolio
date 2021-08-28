@@ -46,6 +46,7 @@ const displayProjectInfo = (object) => {
         <button class="website">View this project's live website!</button>
       </a>
     </aside>
+    <button class="back-button">Back</button>
   `;
   const react = div.querySelector(".react");
   if (object.react === "yes") {
@@ -55,11 +56,22 @@ const displayProjectInfo = (object) => {
   // display new info page
   project.append(div);
   project.classList.remove("hide");
+
+  // event listener for back button
+  const backButton = document.querySelector(".back-button");
+  backButton.addEventListener("click", function() {
+    title.innerText = "My Portfolio";
+    project.innerHTML = "";
+    project.classList.add("hide");
+    projectItems.classList.remove("hide");
+  }); // end backButton event listener
+
 }; // end displayProjectInfo
 
+// event listener for when a portfolio image is clicked on
 projectItems.addEventListener("click", function(e) {
   if (e.target.matches("div")) {
     const id = e.target.id;
     getData(id);
   }
-}); // end event listener
+}); // end projectItems event listener
