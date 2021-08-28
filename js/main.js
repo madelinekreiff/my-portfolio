@@ -45,8 +45,8 @@ const displayProjectInfo = (object) => {
       <a class="button-link" href=${object.url} target="_blank" rel="noreferrer noopener">
         <button class="website">View this project's live website!</button>
       </a>
+      <button class="back-button">Back</button>
     </aside>
-    <button class="back-button">Back</button>
   `;
   const react = div.querySelector(".react");
   if (object.react === "yes") {

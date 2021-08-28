@@ -359,19 +359,28 @@ footer {
 .button-link {
   text-decoration: none;
 }
-.website {
+.website,
+.back-button {
   background-image: linear-gradient(to right, #bbb8b0, #b8af98);
   border-color: #10598f;
   border-radius: 40px;
   color: #10598f;
   font-family: 'Permanent Marker', cursive;
+  padding: 0;
+}
+.website {
   font-size: 1.125em;
   height: 80px;
   margin-top: 50px;
-  padding: 0;
   width: 350px;
 }
-.website:hover {
+.back-button {
+  height: 40px;
+  margin-top: 30px;
+  width: 100px;
+}
+.website:hover,
+.back-button:hover {
   cursor: pointer;
   transform: scale(1.05) perspective(1px);
   transition: 0.05s;
