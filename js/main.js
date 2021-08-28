@@ -17,7 +17,9 @@ const getData = async function () {
 // function to display project info
 const displayProjectInfo = (data) => {
   projectItems.classList.add("hide");
-  portfolio.style.minHeight = "1000px";
+  portfolio.classList.remove("portfolio");
+  portfolio.classList.add("new-portfolio");
+
   // * test variable *
   const test = data[0];
 
@@ -29,31 +31,20 @@ const displayProjectInfo = (data) => {
     </figure>
     <aside class="info">
       <ul class="list">
-        <li><span class="heading">Languages Used:</span> ${test.languages}</li>
-        <li><span class="heading">Additional Tools Used:</span> ${test.tools}</li>
-        <li><span class="heading">Description:</span> ${test.description}</li>
+        <li class="list-item"><span class="heading">Skills:</span> ${test.skills}</li>
+        <li class="list-item"><span class="heading">Tools Used:</span> ${test.tools}</li>
+        <li class="list-item"><span class="heading">Description:</span> ${test.description}</li>
       </ul>
-      <p class="code">Click <span class="here"><a href=${test.code}>here</a></span> to see this project's <span class="react">GitHub Repo</span> & code!</p>
-      <button class="website">View this project live on the internet!</button>
+      <p class="code">Click <a class="here" href=${test.code} target="_blank" rel="noreferrer noopener">here</a> to see this project's <span class="react">GitHub Repo</span> & code!</p>
+      <a class="button-link" href=${test.url} target="_blank" rel="noreferrer noopener">
+        <button class="website">View this project's live website!</button>
+      </a>
     </aside>
   `;
-
-  // editing styles for new project info section
   const react = div.querySelector(".react");
   if (test.react === "yes") {
     react.innerText = "React CodeSandbox";
   }
-  // create variables
-  const info = div.querySelector(".info");
-  const list = div.querySelector(".list");
-  const li = div.querySelectorAll("li");
-  const description = div.querySelector("ul li:nth-child(3)");
-
-  info.style.lineHeight = "2em";
-  list.style.padding = "30px 0";
-  li[0].style.padding = "20px 0";
-  li[1].style.padding = "20px 0";
-  li[2].style.padding = "20px 0";
 
   // display new info page
   project.append(div);
@@ -61,4 +52,3 @@ const displayProjectInfo = (data) => {
 }; // end displayProjectInfo
 
 getData();
-

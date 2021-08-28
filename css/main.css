@@ -162,9 +162,6 @@ address {
   margin: 0 20px;
   width: 90%;
 }
-.hide {
-  display: none;
-}
 
 /* ---------- Header & Nav ----------- */
 header {
@@ -305,7 +302,80 @@ footer {
 }
 
 /* ----- Portfolio Projects ----- */
-
+.hide {
+  display: none;
+}
+.new-portfolio {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  min-height: 1250px;
+}
+.info {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  line-height: 2em;
+}
+.list {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: 30px 0;
+}
+.list-item {
+  padding: 20px 0;
+  text-align: justify;
+}
+.heading {
+  color: #10598f;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.125em;
+  margin-right: 5px;
+}
+.here {
+  color: #10598f;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.125em;
+  padding: 0 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.here:hover {
+  font-size: 1.25em;
+  cursor: pointer;
+  transition: 0.05s;
+}
+.code,
+.button-link {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.button-link {
+  text-decoration: none;
+}
+.website {
+  background-image: linear-gradient(to right, #bbb8b0, #b8af98);
+  border-color: #10598f;
+  border-radius: 40px;
+  color: #10598f;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.125em;
+  height: 80px;
+  margin-top: 50px;
+  padding: 0;
+  width: 350px;
+}
+.website:hover {
+  cursor: pointer;
+  transform: scale(1.05) perspective(1px);
+  transition: 0.05s;
+}
 
  /* ---------- Contact Page ---------- */
 .contact {
@@ -512,6 +582,11 @@ footer {
     line-height: 1.94em;
   }
 
+  /* ----- Portfolio Projects ----- */
+  .new-portfolio {
+    min-height: 1300px;
+  }
+
   /* ---------- Contact Page ---------- */
   .contact {
     min-height: 1200px;
@@ -615,6 +690,11 @@ footer {
   /* ---------- Portfolio Page ---------- */
   .portfolio {
     min-height: 3550px;
+  }
+
+  /* ----- Portfolio Projects ----- */
+  .new-portfolio {
+    min-height: 1500px;
   }
 
   /* ---------- Contact Page ---------- */
