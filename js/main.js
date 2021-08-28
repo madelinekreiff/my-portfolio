@@ -8,41 +8,47 @@ const title = document.querySelector(".title");
 const portfolio = document.querySelector(".portfolio")
 
 // get portfolio project data from a local json server (portfolio.json)
-const getData = async function () {
+const getData = async function (id) {
   const res = await fetch("http://localhost:3000/projects");
   const data = await res.json();
-  displayProjectInfo(data);
+  filterData(data, id);
 }; // end getData
 
+// function to filter data array above to get desired object
+const filterData = (data, id) => {
+  for (let object of data) {
+    if (object.id === id) {
+      displayProjectInfo(object);
+    }
+  }
+}; // end filterData
+
 // function to display project info
-const displayProjectInfo = (data) => {
+const displayProjectInfo = (object) => {
   projectItems.classList.add("hide");
   portfolio.classList.remove("portfolio");
   portfolio.classList.add("new-portfolio");
 
-  // * test variable *
-  const test = data[0];
-
-  title.innerText = `${test.name}`;
+  title.innerText = `${object.name}`;
   const div = document.createElement("div");
   div.innerHTML = `
     <figure class="photo">
-      <img src="${test.imgSrc}" alt="${test.imgAlt}">
+      <img src="${object.imgSrc}" alt="${object.imgAlt}">
     </figure>
     <aside class="info">
       <ul class="list">
-        <li class="list-item"><span class="heading">Skills:</span> ${test.skills}</li>
-        <li class="list-item"><span class="heading">Tools Used:</span> ${test.tools}</li>
-        <li class="list-item"><span class="heading">Description:</span> ${test.description}</li>
+        <li class="list-item"><span class="heading">Skills:</span> ${object.skills}</li>
+        <li class="list-item"><span class="heading">Tools Used:</span> ${object.tools}</li>
+        <li class="list-item"><span class="heading">Description:</span> ${object.description}</li>
       </ul>
-      <p class="code">Click <a class="here" href=${test.code} target="_blank" rel="noreferrer noopener">here</a> to see this project's <span class="react">GitHub Repo</span> & code!</p>
-      <a class="button-link" href=${test.url} target="_blank" rel="noreferrer noopener">
+      <p class="code">Click <a class="here" href=${object.code} target="_blank" rel="noreferrer noopener">here</a> to see this project's <span class="react">GitHub Repo</span> & code!</p>
+      <a class="button-link" href=${object.url} target="_blank" rel="noreferrer noopener">
         <button class="website">View this project's live website!</button>
       </a>
     </aside>
   `;
   const react = div.querySelector(".react");
-  if (test.react === "yes") {
+  if (object.react === "yes") {
     react.innerText = "React CodeSandbox";
   }
 
@@ -51,4 +57,9 @@ const displayProjectInfo = (data) => {
   project.classList.remove("hide");
 }; // end displayProjectInfo
 
-getData();
+projectItems.addEventListener("click", function(e) {
+  if (e.target.matches("div")) {
+    const id = e.target.id;
+    getData(id);
+  }
+}); // end event listener
