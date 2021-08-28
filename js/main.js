@@ -56,6 +56,7 @@ const displayProjectInfo = (object) => {
   // display new info page
   project.append(div);
   project.classList.remove("hide");
+  window.scrollTo(0, 0);
 
   // event listener for back button
   const backButton = document.querySelector(".back-button");
@@ -64,6 +65,7 @@ const displayProjectInfo = (object) => {
     project.innerHTML = "";
     project.classList.add("hide");
     projectItems.classList.remove("hide");
+    window.location.reload();
   }); // end backButton event listener
 
 }; // end displayProjectInfo

@@ -23,6 +23,10 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
   <meta name="theme-color" content="#fafafa">
+
+  <script src="js/vendor/modernizr-3.11.2.min.js" defer></script>
+  <script src="js/plugins.js" defer></script>
+  <script src="js/main.js" defer></script>
 </head>
 
 <body>
@@ -112,14 +116,14 @@
     </div> <!-- end content wrapper -->
   </footer>
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  
+    window.onbeforeunload = () => {
+      window.scrollTo(0, 0);
+    };
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
