@@ -32,26 +32,31 @@ const displayProjectInfo = (object) => {
   title.innerText = `${object.name}`;
   const div = document.createElement("div");
   div.innerHTML = `
-    <figure class="photo">
-      <img src="${object.imgSrc}" alt="${object.imgAlt}">
-    </figure>
-    <aside class="info">
-      <ul class="list">
-        <li class="list-item"><span class="heading">Skills:</span> ${object.skills}</li>
-        <li class="list-item"><span class="heading">Tools Used:</span> ${object.tools}</li>
-        <li class="list-item"><span class="heading">Description:</span> ${object.description}</li>
-      </ul>
+    <div class="info-div">
+      <figure class="photo">
+        <img src="${object.imgSrc}" alt="${object.imgAlt}">
+      </figure>
+      <aside class="info">
+        <ul class="list">
+          <li class="list-item"><span class="heading">Skills:</span> ${object.skills}</li>
+          <li class="list-item"><span class="heading">Tools Used:</span> ${object.tools}</li>
+          <li class="list-item"><span class="heading">Description:</span> ${object.description}</li>
+        </ul>
+      </aside>
+    </div>
+    <div class="buttons-div">
       <p class="code">Click <a class="here" href=${object.code} target="_blank" rel="noreferrer noopener">here</a> to see this project's <span class="react">GitHub Repo</span> & code!</p>
-      <a class="button-link" href=${object.url} target="_blank" rel="noreferrer noopener">
-        <button class="website">View this project's live website!</button>
+      <a class="website-button-link" href=${object.url} target="_blank" rel="noreferrer noopener">
+        <button class="website-button">View this project's live website!</button>
       </a>
       <button class="back-button">Back</button>
-    </aside>
+    </div>
   `;
   const react = div.querySelector(".react");
   if (object.react === "yes") {
     react.innerText = "React CodeSandbox";
   }
+  div.classList.add("project-div");
 
   // display new info page
   project.append(div);

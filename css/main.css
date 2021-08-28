@@ -312,6 +312,24 @@ footer {
   justify-content: space-between;
   min-height: 1350px;
 }
+.project-div {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.info-div {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.buttons-div {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
 .info {
   align-items: center;
   display: flex;
@@ -350,16 +368,16 @@ footer {
   transition: 0.05s;
 }
 .code,
-.button-link {
+.website-button-link {
   align-items: center;
   display: flex;
   justify-content: center;
   width: 100%;
 }
-.button-link {
+.website-button-link {
   text-decoration: none;
 }
-.website,
+.website-button,
 .back-button {
   background-image: linear-gradient(to right, #bbb8b0, #b8af98);
   border-color: #10598f;
@@ -368,7 +386,7 @@ footer {
   font-family: 'Permanent Marker', cursive;
   padding: 0;
 }
-.website {
+.website-button {
   font-size: 1.125em;
   height: 80px;
   margin-top: 50px;
@@ -379,7 +397,7 @@ footer {
   margin-top: 30px;
   width: 100px;
 }
-.website:hover,
+.website-button:hover,
 .back-button:hover {
   cursor: pointer;
   transform: scale(1.05) perspective(1px);
@@ -593,8 +611,18 @@ footer {
 
   /* ----- Portfolio Projects ----- */
   .new-portfolio {
-    min-height: 1300px;
+    min-height: 1400px;
   }
+  .list-item,
+  .back-button {
+    font-size: 1.125em;
+  }
+  .heading,
+  .here,
+  .website-button {
+    font-size: 1.25em;
+  }
+
 
   /* ---------- Contact Page ---------- */
   .contact {
@@ -703,7 +731,17 @@ footer {
 
   /* ----- Portfolio Projects ----- */
   .new-portfolio {
-    min-height: 1500px;
+    min-height: 1200px;
+  }
+  .info-div {
+    flex-flow: nowrap;
+    justify-content: space-around;
+  }
+  .photo {
+    width: 50%;
+  }
+  .info {
+    width: 40%;
   }
 
   /* ---------- Contact Page ---------- */
