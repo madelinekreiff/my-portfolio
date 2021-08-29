@@ -41,7 +41,7 @@
   
     {
       "id": "recipeCard",
-      "name": "Recipe Cards, Flexbox, Media Queries, Responsive Typography",
+      "name": "Recipe Cards",
       "imgSrc": "../img/html-css/recipe-card.png",
       "imgAlt": "Recipe Cards Image",
       "skills": "CSS3, Flexbox, HTML5, Media Queries, Responsive Typography, Version Control",
