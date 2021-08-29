@@ -347,6 +347,7 @@ footer {
 .list-item {
   padding: 20px 0;
   text-align: justify;
+  width: 100%;
 }
 .heading {
   color: #10598f;
@@ -358,7 +359,7 @@ footer {
   color: #10598f;
   font-family: 'Permanent Marker', cursive;
   font-size: 1.125em;
-  padding: 0 2px;
+  padding: 0 4px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -622,7 +623,14 @@ footer {
   .website-button {
     font-size: 1.25em;
   }
-
+  .here {
+    padding: 0 6px;
+  }
+  .here:hover {
+    font-size: 1.375em;
+    cursor: pointer;
+    transition: 0.05s;
+  }
 
   /* ---------- Contact Page ---------- */
   .contact {
