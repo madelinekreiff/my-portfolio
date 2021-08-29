@@ -100,13 +100,13 @@
       "tools": "GitHub, Visual Studio Code",
       "description": "Interacted with the DOM in JavaScript to create a keydown event that plays a specific audio from a drum set when a corresponding key is pressed. Feel free to check it out yourself!",
       "code": "https://github.com/madelinekreiff/js30-drumkit01",
-      "url": "https://madelinekreiff.github.io/js30-drumkikt01/",
+      "url": "https://madelinekreiff.github.io/js30-drumkit01/",
       "react": "no"
     },
 
     {
       "id": "clock",
-      "name": "Clock (current time)",
+      "name": "Clock",
       "imgSrc": "../img/javascript/clock.png",
       "imgAlt": "Clock Image",
       "skills": "JavaScript",

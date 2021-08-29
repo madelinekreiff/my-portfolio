@@ -1,11 +1,10 @@
-// variable for the hidden HTML article with class project
+// variable for the hidden HTML article with class project - clear when page is loaded
 const project = document.querySelector(".project");
-// title variable to change "My Portfolio" to the project's name
+// title variable to change "My Portfolio" to the project's name - clear when page is loaded
 const title = document.querySelector(".title");
 
 // get id variable saved in local storage then clear local storage
 const id = localStorage.getItem("id");
-localStorage.removeItem("id");
 
 // get portfolio project data from a local json server (portfolio.json)
 const getData = async function (id) {
@@ -62,14 +61,15 @@ const getData = async function (id) {
     // event listener for back button
     const backButton = document.querySelector(".back-button");
     backButton.addEventListener("click", function() {
-      title.innerText = "My Portfolio";
+      title.innerText = "";
       project.innerHTML = "";
-      project.classList.add("hide");
-      projectItems.classList.remove("hide");
-      window.location.reload();
+      localStorage.removeItem("id");
+      window.open("../portfolio/index.html", "_self");
     }); // end backButton event listener
   
   }; // end displayProjectInfo
 
   // run getData function
   getData(id);
+
+  console.log(localStorage);
