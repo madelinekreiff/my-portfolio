@@ -20,9 +20,14 @@
   <link rel="stylesheet" href="../css/main.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
   <meta name="theme-color" content="#fafafa">
+
+  <script src="../js/vendor/modernizr-3.11.2.min.js" defer></script>
+  <script src="../js/plugins.js" defer></script>
+  <script src="../js/portfolio.js" defer></script>
 </head>
 
 <body>
@@ -51,58 +56,93 @@
       <h3>My Portfolio</h3>
 
       <div class="project-items">
-        <!-- *** Project 1 *** -->
+        <!-- *** HTML & CSS Projects *** -->
         <article class="project-article">
-          <figure>
-            <img src="../img/jubilee-austen.png" alt="Jubilee Austen Image">
-          </figure>
-          <div class="project-txt">
-            <p class="project-heading"><strong>Jubilee Austen Portfolio</strong><br>
-                <em>HTML, CSS, Adobe Photoshop, Visual Studio Code</em>
-            </p>
-            <p class="project-para">Using HTML and CSS, I created a static portfolio 
-                website. This was a project I completed through Skillcrush, an online 
-                coding program. I used a Photoshop design comp to extract font styles, 
-                colors and measurements to replicate the design in CSS, while using HTML 
-                to structure the content. I wrote all of the code in Visual Studio Code.
-            </p>
-          </div> <!-- end project 1 txt -->
+          <h4 class="project-heading"><em>HTML & CSS Projects</em></h4>
+          <div class="project-images">
+            <figure>
+              <div id="jubileeAusten" class="hover">Click to learn more!</div>
+              <img src="../img/html-css/jubilee-austen.png" alt="Jubilee Austen Image">
+            </figure>
+            <figure>
+              <div id="unpluggedRetreat" class="hover">Click to learn more!</div>
+              <img src="../img/html-css/unplugged-retreat.png" alt="Unplugged Retreat Image">
+            </figure>
+            <figure>
+              <div id="roguePickings" class="hover">Click to learn more!</div>
+              <img src="../img/html-css/rogue-pickings.png" alt="Rogue Pickings Image">
+            </figure>
+            <figure>
+              <div id="recipeCard" class="hover">Click to learn more!</div>
+              <img src="../img/html-css/recipe-card.png" alt="Recipe Card Image">
+            </figure>
+          </div>
         </article>
 
-        <!-- *** Project 2 *** -->
+        <!-- *** JavaScript Projects *** -->
         <article class="project-article">
-          <figure>
-            <img src="../img/rogue-pickings.png" alt="Rogue Pickings Image">
-          </figure>
-          <div class="project-txt">
-            <p class="project-heading"><strong>Rogue Pickings Website</strong><br>
-                <em>HTML, CSS, Adobe Photoshop, Visual Studio Code</em>
-            </p>
-            <p class="project-para">This is another Skillcrush project where I used Visual 
-                Studio Code and a Photoshop design comp to create a website for a restaurant. 
-                It included an About & Contact section, Menu, Customer Reviews and a link to 
-                its location on Google Maps. This project focused heavily on structuring navigation 
-                bars and links in HTML and styling them in CSS, which I was able to master.
-            </p>
-          </div> <!-- end project 2 txt -->
+          <h4 class="project-heading"><em>JavaScript Projects</em></h4>
+          <div class="project-images">
+            <figure>
+              <div id="electionMap" class="hover">Click to learn more!</div>
+              <img src="../img/javascript/election-map.png" alt="Election Map Image">
+            </figure>
+            <figure>
+              <div id="githubRepo" class="hover">Click to learn more!</div>
+              <img src="../img/javascript/github-repo-gallery.png" alt="GitHub Repo Gallery Image">
+            </figure>
+            <figure>
+              <div id="guessTheWord" class="hover">Click to learn more!</div>
+              <img src="../img/javascript/guess-the-word.png" alt="Guess the Word Image">
+            </figure>
+            <figure>
+              <div id="drumkit" class="hover">Click to learn more!</div>
+              <img src="../img/javascript/drumkit.png" alt="Drumkit Image">
+            </figure>
+            <figure>
+              <div id="clock" class="hover">Click to learn more!</div>
+              <img src="../img/javascript/clock.png" alt="Clock Image">
+            </figure>
+            <figure>
+              <div id="cssVariables" class="hover">Click to learn more!</div>
+              <img src="../img/javascript/css-variables.png" alt="CSS Variables Image">
+            </figure>
+            <figure>
+              <div id="flexPanels" class="hover">Click to learn more!</div>
+              <img src="../img/javascript/flex-panels.png" alt="Flex Panels Image">
+            </figure>
+            <figure>
+              <div id="typeAhead" class="hover">Click to learn more!</div>
+              <img src="../img/javascript/type-ahead.png" alt="Type Ahead Image">
+            </figure>
+            <figure>
+              <div id="html5Canvas" class="hover">Click to learn more!</div>
+              <img src="../img/javascript/html5-canvas.png" alt="HTML5 Canvas Image">
+            </figure>
+          </div>
         </article>
 
-        <!-- *** Project 3 *** -->
+        <!-- *** React Projects *** -->
         <article class="project-article">
-          <figure>
-            <img src="../img/recipe-card.png" alt="Recipe Card Image">
-          </figure>
-          <div class="project-txt">
-            <p class="project-heading"><strong>Recipe Card Project</strong><br>
-                <em>HTML, CSS, Visual Studio Code</em>
-            </p>
-            <p class="project-para">In this Skillcrush project, I used CSS to style the provided 
-                HTML content in Visual Studio Code. There was no design comp, so I estimated the 
-                measurements by hand and was given a style guide to refer back to with the required 
-                fonts and colors. The main goal was to learn and practice additional complex CSS 
-                styles to create a clean layout.
-            </p>
-          </div> <!-- end project 3 txt -->
+          <h4 class="project-heading"><em>React Projects</em></h4>
+          <div class="project-images">
+            <figure>
+              <div id="stickyNotes" class="hover">Click to learn more!</div>
+              <img src="../img/react/sticky-notes.png" alt="Sticky Notes Image">
+            </figure>
+            <figure>
+              <div id="hotelsFilter" class="hover">Click to learn more!</div>
+              <img src="../img/react/hotels-filter.png" alt="Hotels Filter Image">
+            </figure>
+            <figure>
+              <div id="nameTag" class="hover">Click to learn more!</div>
+              <img src="../img/react/name-tag-generator.png" alt="Name Tag Generator">
+            </figure>
+            <figure>
+              <div id="colorPalette" class="hover">Click to learn more!</div>
+              <img src="../img/react/color-palette.png" alt="Color Palette Image">
+            </figure>
+          </div>
         </article>
       </div> <!-- end project items -->
 
@@ -116,14 +156,14 @@
     </div> <!-- end content wrapper -->
   </footer>
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  
+    window.onbeforeunload = () => {
+      window.scrollTo(0, 0);
+    };
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>

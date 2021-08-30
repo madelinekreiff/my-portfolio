@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Madeline Reiff | About</title>
+  <title>Madeline Reiff | Portfolio</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,13 +20,14 @@
   <link rel="stylesheet" href="../css/main.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
   <meta name="theme-color" content="#fafafa">
 
-  <script src="js/vendor/modernizr-3.11.2.min.js" defer></script>
-  <script src="js/plugins.js" defer></script>
-  <script src="js/main.js" defer></script>
+  <script src="../js/vendor/modernizr-3.11.2.min.js" defer></script>
+  <script src="../js/plugins.js" defer></script>
+  <script src="../js/projects.js" defer></script>
 </head>
 
 <body>
@@ -40,7 +41,7 @@
       <nav>
         <ul>
           <li><a href="../index.html">Home</a></li>
-          <li><a href="index.html">About</a></li>
+          <li><a href="../about/index.html">About</a></li>
           <li><a href="../portfolio/index.html">Portfolio</a></li>
           <li><a href="../contact/index.html">Contact</a></li>
         </ul>
@@ -49,28 +50,15 @@
     </div> <!-- end content wrapper -->
   </header>
 
-  <!-- ***** About Page ***** -->
-  <main class="about">
-      <div class="content-wrapper">
-        <h3>About Me</h3>
-        <article class="about-article">
-          <figure>
-            <img src="../img/headshot.jpg" alt="Headshot">
-          </figure>
-          <div class="about-txt">
-            <p class="about-statement"><em>I love combining creativity with technology.</em></p>
-            <p class="about-para">After graduating from the University of California, Santa Barbara 
-                with a degree in Statistical Science, I orginally wanted to pursue a career in 
-                data analysis. The programming languages and technology always intrigued me. 
-                However, I realized I needed more creativity, which led me to discover front-end 
-                web development. It allows me to combine creativity, while still being involved 
-                in the technology world.<br><br>
-                A couple fun facts about me is I love the beach, hence the beach theme throughout 
-                this website. Also, I was a Division 1 cheerleader for UC Santa Barbara. Go Gauchos!
-            </p>
-          </div>
-        </article>
-      </div> <!-- end content wrapper -->
+  <!-- ***** Portfolio Page ***** -->
+  <main class="new-portfolio">
+    <div class="content-wrapper">
+      <h3 class="title"></h3>
+
+      <!-- *** Hidden project page section *** -->
+      <article class="project"></article>
+
+    </div> <!-- end content wrapper -->
   </main>
 
   <!-- ***** Footer ***** -->
@@ -84,7 +72,7 @@
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-
+  
     window.onbeforeunload = () => {
       window.scrollTo(0, 0);
     };

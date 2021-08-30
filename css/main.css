@@ -94,12 +94,14 @@ html {
   margin: 0;
 }
 body {
-  background-color: #adc4d3;
   color: #34677a;
   font-family: 'PT Serif', serif;
   font-size: 1em;
   height: 100%;
   margin: 0;
+}
+main {
+  background-image: linear-gradient(to right, #adc4d3, #77a7c7);
 }
 ul {
   list-style-type: none;
@@ -249,12 +251,12 @@ footer {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
-  min-height: 2250px;
+  min-height: 6325px;
 }
 .project-items {
   align-items: center;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
 }
 .project-article {
@@ -262,12 +264,145 @@ footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin-bottom: 100px;
 }
 .project-heading {
   color: #10598f;
+  font-size: 1.75em;
   line-height: 2.18em;
-  margin: 18px 0 24px 0;
+  margin-bottom: 30px;
+}
+.project-images {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.project-images figure {
+  margin-bottom: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.hover {
+  color: #fff;
+  font-size: 1.5em;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  padding-top: 26%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+.hover:hover {
+  background-color: #3f3e3a;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: background-color 0.5s;
+}
+
+/* ----- Portfolio Projects ----- */
+.hide {
+  display: none;
+}
+.new-portfolio {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  min-height: 1350px;
+}
+.project-div {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.info-div {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.buttons-div {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.info {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  line-height: 2em;
+}
+.list {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: 30px 0;
+}
+.list-item {
+  padding: 20px 0;
+  text-align: justify;
+  width: 100%;
+}
+.heading {
+  color: #10598f;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.125em;
+  margin-right: 5px;
+}
+.here {
+  color: #10598f;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.125em;
+  padding: 0 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.here:hover {
+  font-size: 1.25em;
+  cursor: pointer;
+  transition: 0.05s;
+}
+.code,
+.website-button-link {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.website-button-link {
+  text-decoration: none;
+}
+.website-button,
+.back-button {
+  background-image: linear-gradient(to right, #bbb8b0, #b8af98);
+  border-color: #10598f;
+  border-radius: 40px;
+  color: #10598f;
+  font-family: 'Permanent Marker', cursive;
+  padding: 0;
+}
+.website-button {
+  font-size: 1.125em;
+  height: 80px;
+  margin-top: 50px;
+  width: 350px;
+}
+.back-button {
+  height: 40px;
+  margin-top: 30px;
+  width: 100px;
+}
+.website-button:hover,
+.back-button:hover {
+  cursor: pointer;
+  transform: scale(1.05) perspective(1px);
+  transition: 0.05s;
 }
 
  /* ---------- Contact Page ---------- */
@@ -458,14 +593,43 @@ footer {
 
   /* ---------- Portfolio Page ---------- */
   .portfolio {
-    min-height: 2450px;
+    min-height: 2725px;
   }
-  .project-article figure,
-  .project-txt {
-    width: 80%;
+  .project-article {
+    margin-bottom: 40px;
+  }
+  .project-images figure {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 45%;
   }
   .project-heading {
+    font-size: 2em;
     line-height: 1.94em;
+  }
+
+  /* ----- Portfolio Projects ----- */
+  .new-portfolio {
+    min-height: 1400px;
+  }
+  .list-item,
+  .back-button {
+    font-size: 1.125em;
+  }
+  .heading,
+  .here,
+  .website-button {
+    font-size: 1.25em;
+  }
+  .here {
+    padding: 0 6px;
+  }
+  .here:hover {
+    font-size: 1.375em;
+    cursor: pointer;
+    transition: 0.05s;
   }
 
   /* ---------- Contact Page ---------- */
@@ -570,17 +734,22 @@ footer {
 
   /* ---------- Portfolio Page ---------- */
   .portfolio {
-    min-height: 1450px;
+    min-height: 3550px;
   }
-  .project-article {
-    flex-wrap: nowrap;
+
+  /* ----- Portfolio Projects ----- */
+  .new-portfolio {
+    min-height: 1200px;
   }
-  .project-article figure {
-    margin-right: 40px;
-    width: 45%;
+  .info-div {
+    flex-flow: nowrap;
+    justify-content: space-around;
   }
-  .project-txt {
-    width: 55%;
+  .photo {
+    width: 50%;
+  }
+  .info {
+    width: 40%;
   }
 
   /* ---------- Contact Page ---------- */

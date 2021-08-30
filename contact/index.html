@@ -23,6 +23,10 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
   <meta name="theme-color" content="#fafafa">
+
+  <script src="js/vendor/modernizr-3.11.2.min.js" defer></script>
+  <script src="js/plugins.js" defer></script>
+  <script src="js/main.js" defer></script>
 </head>
 
 <body>
@@ -54,7 +58,7 @@
         <!-- *** Contact Info *** -->
         <div class="contact-sq">
           <figure class="contact-img">
-            <img src="../img/sunglasses.jpg" alt="Sunglasses Image">
+            <img src="../img/contact/sunglasses.jpg" alt="Sunglasses Image">
           </figure>
           <div class="contact-txt">
             <p class="contact-heading"><strong>Contact</strong></p>
@@ -69,7 +73,7 @@
         <!-- *** Social Media *** -->
         <div class="contact-sq">
           <figure class="contact-img-switch">
-            <img src="../img/hammock.jpg" alt="Hammock Image">
+            <img src="../img/contact/hammock.jpg" alt="Hammock Image">
           </figure>
           <div class="contact-txt contact-txt-switch">
             <p class="contact-heading"><strong>Follow Me</strong></p>
@@ -91,7 +95,7 @@
         <!-- *** Location *** -->
         <div class="contact-sq">
           <figure class="contact-img">
-            <img src="../img/flower.jpg" alt="Flower Image">
+            <img src="../img/contact/flower.jpg" alt="Flower Image">
           </figure>
           <div class="contact-txt">
             <p class="contact-heading"><strong>Location</strong></p>
@@ -112,14 +116,14 @@
     </div> <!-- end content wrapper -->
   </footer>
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  
+    window.onbeforeunload = () => {
+      window.scrollTo(0, 0);
+    };
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
