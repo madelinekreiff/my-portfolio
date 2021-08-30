@@ -65,7 +65,7 @@ const getData = async function (id) {
       title.innerText = "";
       project.innerHTML = "";
       localStorage.removeItem("id");
-      window.open("../portfolio/index.html", "_self");
+      window.open("../portfolio", "_self");
     }); // end backButton event listener
   
   }; // end displayProjectInfo
