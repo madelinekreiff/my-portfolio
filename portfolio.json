@@ -124,7 +124,7 @@
         "imgAlt": "Updating CSS Variables Image",
         "skills": "JavaScript",
         "tools": "GitHub, Visual Studio Code",
-        "description": "Used JavaScript to access DOM elements with event listeners to change CSS styles of an image such as spacing, blurring, and background color based on input from a range sliding bar. I used event listeners and handlers to listen for the sliding bar being moved, which then resulted in a CSS style being changed.",
+        "description": "Used JavaScript to access the DOM elements with event listeners to change the CSS styles of an image such as spacing, blurring, and background color based on input from a sliding bar range. I used event listeners and handlers to listen for the sliding bar being moved, which then resulted in a CSS style being changed. Go ahead and try it out yourself!",
         "code": "https://github.com/madelinekreiff/js30-css-variables03",
         "url": "https://madelinekreiff.github.io/js30-css-variables03/",
         "react": "no"
@@ -150,7 +150,7 @@
         "imgAlt": "Type Ahead Search Bar Image",
         "skills": "JavaScript",
         "tools": "GitHub, Visual Studio Code",
-        "description": "Using JavaScript, created a dynamic search box for a list of cities and their corresponding states and populations. Searches created a regular expression which were used to find and display matches. I used async functions to fetch the data from an API and used objects and arrays to hold the desired data. An event handler is triggered every time a key is typed into the search bar to update the results.",
+        "description": "Using JavaScript, created a dynamic search box for a list of cities and their corresponding states and populations. Searches created a regular expression which were used to find and display matches. I used async functions to fetch the data from an API and used objects and arrays to hold the desired data. An event handler is triggered every time a key is typed into the search bar to update the results. Feel free to check it out for yourself!",
         "code": "https://github.com/madelinekreiff/js30-type-ahead06",
         "url": "https://madelinekreiff.github.io/js30-type-ahead06/",
         "react": "no"
@@ -163,7 +163,7 @@
         "imgAlt": "HTML5 Canvas Image",
         "skills": "JavaScript",
         "tools": "GitHub, Visual Studio Code",
-        "description": "Used HTML5 canvas and JavaScript to create a tool that draws rainbow lines as the mouse drags across the page. Worked with .getContext() and different attributes to change stroke styles and colors. I learned a lot of new features from this project from changing the hue and line width based on conditional statements. I also learned about mousedown, mouseup and mousemove event listeners which together is what creates the dragging motion on a mousepad.",
+        "description": "Used HTML5 canvas and JavaScript to create a tool that draws rainbow lines as the mouse drags across the page. Worked with .getContext() and different attributes to change stroke styles and colors. I learned a lot of new features from this project from changing the hue and line width based on conditional statements. I also learned about mousedown, mouseup and mousemove event listeners which together is what creates the dragging motion on a mousepad. Channel your inner artist skills by using your mouse or finger to click and drag!",
         "code": "https://github.com/madelinekreiff/js30-html5-canvas08",
         "url": "https://madelinekreiff.github.io/js30-html5-canvas08/",
         "react": "no"
