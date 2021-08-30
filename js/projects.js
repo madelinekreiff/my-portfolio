@@ -42,7 +42,7 @@ const getData = async function (id) {
         </aside>
       </div>
       <div class="buttons-div">
-        <p class="code">Click <a class="here" href=${object.code} target="_blank" rel="noreferrer noopener">here</a> to see this project's <span class="react">GitHub Repo</span> & code!</p>
+        <p class="code">Click <a class="here" href=${object.code} target="_blank" rel="noreferrer noopener">here</a> to see this project's&nbsp;<span class="react">GitHub Repo</span>&nbsp;& code!</p>
         <a class="website-button-link" href=${object.url} target="_blank" rel="noreferrer noopener">
           <button class="website-button">View this project's live website!</button>
         </a>
