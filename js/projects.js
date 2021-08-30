@@ -8,10 +8,10 @@ const id = localStorage.getItem("id");
 
 // get portfolio project data from a local json server (portfolio.json)
 const getData = async function (id) {
-    const res = await fetch("https://api.github.com/repos/madelinekreiff/my-portfolio/contents/index.html?ref=gh-pages");
-    const data = await res.json();
-    console.log(data);
-    // filterData(data, id);
+    const res = await fetch("https://madelinekreiff.github.io/my-portfolio/portfolio.json");
+    let data = await res.json();
+    data = data.projects;
+    filterData(data, id);
   }; // end getData
   
   // function to filter data array above to get desired object
