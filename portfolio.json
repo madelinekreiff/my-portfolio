@@ -160,7 +160,7 @@
         "id": "html5Canvas",
         "name": "HTML5 Canvas",
         "imgSrc": "../img/javascript/html5-canvas.png",
-        "imgAlt": "HTML5 Canvas Image",
+        "imgAlt": "HTML5 Canvas",
         "skills": "JavaScript",
         "tools": "GitHub, Visual Studio Code",
         "description": "Used HTML5 canvas and JavaScript to create a tool that draws rainbow lines as the mouse drags across the page. Worked with .getContext() and different attributes to change stroke styles and colors. I learned a lot of new features from this project from changing the hue and line width based on conditional statements. I also learned about mousedown, mouseup and mousemove event listeners which together is what creates the dragging motion on a mousepad. Channel your inner artist skills by using your mouse to click and drag! (As of right now, this project only works on a desktop with a mouse)",
