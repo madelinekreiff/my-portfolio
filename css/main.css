@@ -355,6 +355,13 @@ footer {
   font-size: 1.125em;
   margin-right: 5px;
 }
+.code {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
 .here {
   color: #10598f;
   font-family: 'Permanent Marker', cursive;
