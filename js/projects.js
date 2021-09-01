@@ -57,7 +57,6 @@ const getData = async function (id) {
   
     // display new info page
     project.append(div);
-    window.scrollTo(0, 0);
   
     // event listener for back button
     const backButton = document.querySelector(".back-button");
