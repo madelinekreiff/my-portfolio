@@ -310,7 +310,7 @@ footer {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
-  min-height: 1350px;
+  min-height: 1450px;
 }
 .project-div {
   align-items: center;
@@ -619,7 +619,7 @@ footer {
 
   /* ----- Portfolio Projects ----- */
   .new-portfolio {
-    min-height: 1400px;
+    min-height: 1500px;
   }
   .list-item,
   .back-button {
@@ -746,7 +746,7 @@ footer {
 
   /* ----- Portfolio Projects ----- */
   .new-portfolio {
-    min-height: 1200px;
+    min-height: 1300px;
   }
   .info-div {
     flex-flow: nowrap;
