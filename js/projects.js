@@ -6,13 +6,13 @@ const title = document.querySelector(".title");
 // get id variable saved in local storage then clear local storage
 const id = localStorage.getItem("id");
 
-// get portfolio project data from a local json server (portfolio.json)
+// get portfolio project data from GitHub hosted API (portfolio.json)
 const getData = async function (id) {
-    const res = await fetch("https://madelinekreiff.github.io/my-portfolio/portfolio.json");
-    let data = await res.json();
-    data = data.projects;
-    filterData(data, id);
-  }; // end getData
+  const res = await fetch("https://madelinekreiff.github.io/my-portfolio/portfolio.json");
+  let data = await res.json();
+  data = data.projects;
+  filterData(data, id);
+}; // end getData
   
   // function to filter data array above to get desired object
   const filterData = (data, id) => {

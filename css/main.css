@@ -371,13 +371,16 @@ footer {
   width: 100%;
 }
 .about-hover {
+  align-items: center;
+  box-sizing: border-box;
   color: #fff;
+  display: flex;
   font-family: 'Permanent Marker', cursive;
   font-size: 0.4em;
   height: 100%;
+  justify-content: center;
   left: 0;
   opacity: 0;
-  padding-top: 26%;
   position: absolute;
   text-align: center;
   top: 0;
@@ -395,6 +398,20 @@ footer {
 }
 .mobile-arrow {
   font-size: 3.75em;
+}
+
+/* ----- Toggle About Classes ----- */
+.about-div-toggle {
+  font-family: 'PT Serif', serif;
+  font-size: 0.3em;
+  opacity: 1;
+  padding: 0 20px;
+  text-align: justify;
+}
+.about-parent-toggle {
+  background-color: #506f7a;
+  border: 3px solid #bab4a4;
+  opacity: 0.5;
 }
 
 /* ---------- Portfolio Page ---------- */
