@@ -220,5 +220,31 @@
         "url": "https://3hntg.csb.app/",
         "react": "yes"
       }
+    ],
+    "about": [
+      {
+        "id": "grad",
+        "text": "After graduating from the University of California, Santa Barbara with a degree in Statistical Science, I originally wanted to pursue a career in data analysis. The programming languages and technology always intrigued me."
+      },
+      {
+        "id": "art",
+        "text": "However, I realized I needed more creativity, which led me to discover front-end web development. It allows me to combine creativity, while still being involved in the technology world."
+      },
+      {
+        "id": "trophy",
+        "text": "I'm incredibly proud of this career change, and I love the feeling of accomplishment I get from seeing a project go live on the internet. I can't wait to continue growing in web development!"
+      },
+      {
+        "id": "beach",
+        "text": "A fun fact about me is I love the beach, hence the beach theme throughout this website."
+      },
+      {
+        "id": "bullhorn",
+        "text": "Also, I was a Division 1 cheerleader for UC Santa Barbara. (Go Gauchos!) I even had the opportunity to be a team leader and manage the administrative operations and finances of the organization."
+      },
+      {
+        "id": "lightbulb",
+        "text": "One of my future goals is to create a personal web page commemorating my time as a collegiate cheerleader. Ideally, it would incorporate my favorite videos and photos as well as the positive and impactful changes I made to the team as a leader."
+      }
     ]
   }
