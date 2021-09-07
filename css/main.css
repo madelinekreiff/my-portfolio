@@ -321,7 +321,7 @@ footer {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
-  min-height: 1375px;
+  min-height: 3000px;
 }
 .about-article {
   align-items: center;
@@ -334,7 +334,67 @@ footer {
   font-size: 1.25em;
   font-weight: 700;
   margin: 50px 0;
-  text-align: left;
+  text-align: center;
+}
+.about-para {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.start-finish {
+  color: #10598f;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5em;
+  margin: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+.about-follow {
+  font-style: italic;
+  text-align: center;
+  width: 100%;
+}
+.about-divider {
+  border: 1px solid #34677a;
+  margin: 20px 0 30px 0;
+  width: 100%;
+}
+.about-sq {
+  align-items: center;
+  display: flex;
+  font-size: 3.75em;
+  height: 250px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.about-hover {
+  color: #fff;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 0.4em;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  padding-top: 26%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+.about-hover:hover {
+  opacity: 1;
+}
+.about-sq:hover {
+  background-color: #506f7a;
+  border: 3px solid #bab4a4;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: background-color 0.5s;
+}
+.mobile-arrow {
+  font-size: 3.75em;
 }
 
 /* ---------- Portfolio Page ---------- */
@@ -685,12 +745,13 @@ footer {
   .about {
     min-height: 1180px;
   }
-  .about-article figure,
-  .about-txt {
+  .about-article figure {
+  /* .about-txt { */
     width: 80%;
   }
   .about-statement {
     font-size: 1.375em;
+    width: 80%;
   }
 
   /* ---------- Portfolio Page ---------- */
@@ -830,7 +891,10 @@ footer {
     margin-right: 40px;
     width: 50%;
   }
-  .about-txt {
+  /* .about-txt {
+    width: 50%;
+  } below is new */
+  .about-statement {
     width: 50%;
   }
 
