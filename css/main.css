@@ -89,12 +89,8 @@ textarea {
 /* -------------------- Mobile Styles -------------------- */
 /* ---------- General Styles ---------- */
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  from {opacity: 0}
+  to {opacity: 1}
 }
 html {
   font-size: 16px;
@@ -122,6 +118,7 @@ h1 {
   font-family: 'PT Sans', sans-serif;
   font-size: 2.25em;
   margin: 36px 0;
+  text-align: center;
 }
 h2 {
   color: #10598f;
@@ -129,7 +126,6 @@ h2 {
   font-size: 1.5em;
   font-weight: 400;
   line-height: 1.16em;
-  margin: 36px 0;
   text-align: center;
 }
 h3 {
@@ -232,11 +228,20 @@ footer {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
-  min-height: 900px;
+  min-height: 1475px;
+}
+.smiley-face {
+  color: #34677a;
+  display: inline-block;
+  font-size: 0.8em;
+  padding: 4px 0 0 10px;
 }
 .catch-statement,
 .bonus-statement {
   max-width: 475px;
+}
+.bonus-statement {
+  margin: 36px 0 0 0;
 }
 .bonus {
   font-family: 'Permanent Marker', cursive;
@@ -253,13 +258,70 @@ footer {
   transition: 0.05s;
 }
 
+/* ----- Slideshow ----- */
+@-webkit-keyframes fade {
+  from {opacity: 0.4}
+  to {opacitiy: 1}
+}
+@keyframes fade {
+  from {opacity: 0.4}
+  to {opacitiy: 1}
+}
+.slideshow-divider {
+  border: 1px solid #34677a;
+  margin: 40px 0;
+  width: 100%;
+}
+.home-portfolio-heading {
+  margin: 36px 0;
+}
+.home-portfolio-heading,
+.home-here-caption {
+  text-align: center;
+}
+.slideshow {
+  position: relative;
+}
+.slide {
+  box-sizing: border-box;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+}
+.dots-div {
+  text-align: center;
+}
+.dot {
+  background-color: #bab4a4;
+  border: 1px solid #aca698;
+  border-radius: 50%;
+  display: inline-block;
+  height: 15px;
+  margin: 20px 5px 10px 5px;
+  width: 15px;
+}
+.home-here {
+  color: #10598f;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.125em;
+  text-decoration: none;
+}
+.home-here:hover {
+  font-size: 1.25em;
+  cursor: pointer;
+  transition: 0.05s;
+}
+
 /* ---------- About Page ---------- */
 .about {
   align-items: center;
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
-  min-height: 1100px;
+  min-height: 1375px;
 }
 .about-article {
   align-items: center;
@@ -398,7 +460,6 @@ footer {
   font-size: 1.125em;
   padding: 0 4px;
   text-decoration: none;
-  text-transform: uppercase;
 }
 .here:hover {
   font-size: 1.25em;
@@ -613,7 +674,7 @@ footer {
 
   /* ---------- Home Page ---------- */
   .home {
-    min-height: 900px;
+    min-height: 1775px;
   }
   .catch-statement,
   .bonus-statement {
@@ -752,7 +813,7 @@ footer {
 
   /* ---------- Home Page ---------- */
   .home {
-    min-height: 1050px;
+    min-height: 1850px;
   }
   .home figure {
     width: 90%;
