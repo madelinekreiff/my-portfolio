@@ -232,7 +232,25 @@ footer {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
-  min-height: 700px;
+  min-height: 900px;
+}
+.catch-statement,
+.bonus-statement {
+  max-width: 475px;
+}
+.bonus {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.125em;
+}
+.github {
+  color: #10598f;
+  font-family: 'Permanent Marker', cursive;
+  text-decoration: none;
+}
+.github:hover {
+  cursor: pointer;
+  font-size: 1.125em;
+  transition: 0.05s;
 }
 
 /* ---------- About Page ---------- */
@@ -595,7 +613,11 @@ footer {
 
   /* ---------- Home Page ---------- */
   .home {
-    min-height: 800px;
+    min-height: 900px;
+  }
+  .catch-statement,
+  .bonus-statement {
+    max-width: none;
   }
 
   /* ---------- About Page ---------- */
