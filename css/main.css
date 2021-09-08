@@ -225,6 +225,8 @@ footer {
 .copyright {
   color: #10598f;
   font-size: 1em;
+  min-width: 260px;
+  text-align: center;
 }
 
 /* ---------- Home Page ---------- */
@@ -439,6 +441,7 @@ footer {
   font-size: 1.75em;
   line-height: 2.18em;
   margin-bottom: 30px;
+  text-align: center;
 }
 .project-images {
   align-items: center;
@@ -474,29 +477,25 @@ footer {
 .hide {
   display: none;
 }
-.project-div {
-  align-items: center;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+.title {
+  text-align: center;
 }
-.info-div {
-  align-items: center;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-.buttons-div {
-  align-items: center;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
+.project,
+.project-div,
+.info-div,
+.buttons-div,
 .info {
   align-items: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+}
+.project-div,
+.info-div,
+.buttons-div {
+  width: 100%;
+}
+.info {
   line-height: 2em;
 }
 .list {
@@ -508,7 +507,6 @@ footer {
 }
 .list-item {
   padding: 20px 0;
-  text-align: justify;
   width: 100%;
 }
 .heading {
@@ -712,6 +710,13 @@ footer {
    Modify as content requires.
    ========================================================================== */
 
+@media only screen and (max-width: 300px) {
+  /* ---------- XS Screen Styles ---------- */
+  .about-sq {
+    height: 320px;
+  }
+} /* end XS screen styles */
+
 @media only screen and (min-width: 768px) {
   /* -------------------- Tablet Styles -------------------- */
   /* ---------- General Styles ---------- */
@@ -762,7 +767,7 @@ footer {
     width: 80%;
   }
   .start-div {
-    left: 8%;
+    left: 7%;
     position: absolute;
     top: 34%;
     width: 30%;
