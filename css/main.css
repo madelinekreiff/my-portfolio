@@ -321,7 +321,7 @@ footer {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
-  min-height: 3000px;
+  min-height: 3050px;
 }
 .about-article {
   align-items: center;
@@ -776,7 +776,7 @@ footer {
 
   /* ---------- About Page ---------- */
   .about {
-    min-height: 2180px;
+    min-height: 2125px;
   }
   .about-article {
     position: relative;
@@ -968,7 +968,7 @@ footer {
 
   /* ---------- Home Page ---------- */
   .home {
-    min-height: 1850px;
+    min-height: 1925px;
   }
   .home-figure {
     width: 90%;
@@ -976,7 +976,7 @@ footer {
 
   /* ---------- About Page ---------- */
   .about {
-    min-height: 2250px;
+    min-height: 2125px;
   }
   .about-article figure {
     width: 50%;
