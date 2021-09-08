@@ -259,11 +259,11 @@ footer {
 }
 
 /* ----- Slideshow ----- */
-@-webkit-keyframes fade {
+@keyframes fade {
   from {opacity: 0.4}
   to {opacity: 1}
 }
-@keyframes fade {
+@-webkit-keyframes fade {
   from {opacity: 0.4}
   to {opacity: 1}
 }
@@ -286,10 +286,8 @@ footer {
   box-sizing: border-box;
 }
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  animation: 1.5s ease-out fade;
+  -webkit-animation: 1.5s ease-out fade;
 }
 .dots-div {
   text-align: center;
@@ -526,7 +524,7 @@ footer {
   color: #10598f;
   font-family: 'Permanent Marker', cursive;
   font-size: 1.125em;
-  padding: 0 4px;
+  padding: 0 4px 1px 4px;
   text-decoration: none;
 }
 .here:hover {
@@ -547,7 +545,7 @@ footer {
 .website-button,
 .back-button {
   background-image: linear-gradient(to right, #bbb8b0, #b8af98);
-  border-color: #10598f;
+  border: 2px solid #10598f;
   border-radius: 40px;
   color: #10598f;
   font-family: 'Permanent Marker', cursive;
@@ -935,7 +933,8 @@ footer {
   }
 
   /* ---------- Home Page ---------- */
-  .home-figure {
+  .home-figure,
+  .slideshow-div {
     width: 90%;
   }
 
