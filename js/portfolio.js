@@ -9,4 +9,3 @@ projectItems.addEventListener("click", function(e) {
     window.open("../projects/index.html", "_self");
   }
 }); // end projectItems event listener
-
