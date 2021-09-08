@@ -105,7 +105,12 @@ body {
   margin: 0;
 }
 main {
+  align-items: center;
   background-image: linear-gradient(to right, #adc4d3, #77a7c7);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
 }
 ul {
   list-style-type: none;
@@ -223,13 +228,6 @@ footer {
 }
 
 /* ---------- Home Page ---------- */
-.home {
-  align-items: center;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  min-height: 1475px;
-}
 .smiley-face {
   color: #34677a;
   display: inline-block;
@@ -261,11 +259,11 @@ footer {
 /* ----- Slideshow ----- */
 @-webkit-keyframes fade {
   from {opacity: 0.4}
-  to {opacitiy: 1}
+  to {opacity: 1}
 }
 @keyframes fade {
   from {opacity: 0.4}
-  to {opacitiy: 1}
+  to {opacity: 1}
 }
 .slideshow-divider {
   border: 1px solid #34677a;
@@ -316,13 +314,6 @@ footer {
 }
 
 /* ---------- About Page ---------- */
-.about {
-  align-items: center;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  min-height: 3050px;
-}
 .about-article {
   align-items: center;
   display: flex;
@@ -431,13 +422,6 @@ footer {
 }
 
 /* ---------- Portfolio Page ---------- */
-.portfolio {
-  align-items: center;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  min-height: 6325px;
-}
 .project-items {
   align-items: center;
   display: flex;
@@ -489,13 +473,6 @@ footer {
 /* ----- Portfolio Projects ----- */
 .hide {
   display: none;
-}
-.new-portfolio {
-  align-items: center;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  min-height: 1450px;
 }
 .project-div {
   align-items: center;
@@ -597,13 +574,6 @@ footer {
 }
 
  /* ---------- Contact Page ---------- */
-.contact {
-  align-items: center;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  min-height: 1600px;
-}
 .contact-items {
   align-items: center;
   display: flex;
@@ -771,9 +741,6 @@ footer {
   }
 
   /* ---------- Home Page ---------- */
-  .home {
-    min-height: 1775px;
-  }
   .catch-statement,
   .bonus-statement {
     max-width: none;
@@ -781,7 +748,7 @@ footer {
 
   /* ---------- About Page ---------- */
   .about {
-    min-height: 2125px;
+    min-height: 2000px;
   }
   .about-article {
     position: relative;
@@ -854,9 +821,6 @@ footer {
   }
 
   /* ---------- Portfolio Page ---------- */
-  .portfolio {
-    min-height: 2725px;
-  }
   .project-article {
     margin-bottom: 40px;
   }
@@ -873,9 +837,6 @@ footer {
   }
 
   /* ----- Portfolio Projects ----- */
-  .new-portfolio {
-    min-height: 1500px;
-  }
   .list-item,
   .back-button {
     font-size: 1.125em;
@@ -895,9 +856,6 @@ footer {
   }
 
   /* ---------- Contact Page ---------- */
-  .contact {
-    min-height: 1200px;
-  }
   .contact-sq {
     flex-flow: row nowrap;
     margin: 40px 0 50px 0;
@@ -972,16 +930,13 @@ footer {
   }
 
   /* ---------- Home Page ---------- */
-  .home {
-    min-height: 1925px;
-  }
   .home-figure {
     width: 90%;
   }
 
   /* ---------- About Page ---------- */
   .about {
-    min-height: 2125px;
+    min-height: 1950px;
   }
   .about-article figure {
     width: 50%;
@@ -999,15 +954,7 @@ footer {
     padding-left: 22%;
   }
 
-  /* ---------- Portfolio Page ---------- */
-  .portfolio {
-    min-height: 3550px;
-  }
-
   /* ----- Portfolio Projects ----- */
-  .new-portfolio {
-    min-height: 1300px;
-  }
   .info-div {
     flex-flow: nowrap;
     justify-content: space-around;
@@ -1017,11 +964,6 @@ footer {
   }
   .info {
     width: 40%;
-  }
-
-  /* ---------- Contact Page ---------- */
-  .contact {
-    min-height: 1550px;
   }
 } /* end desktop styles */
 
