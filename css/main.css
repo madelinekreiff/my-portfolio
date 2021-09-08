@@ -624,13 +624,18 @@ footer {
   margin: 40px 0;
   width: 100%;
 }
-.contact-txt p {
+.contact-txt p,
+.contact-address {
   text-align: center;
 }
 .contact-heading {
   color: #10598f;
   font-size: 1.25em;
   margin-bottom: 30px;
+}
+.contact-address a {
+  color: #34677a;
+  line-height: 1.75em;
 }
 .social-icons {
   align-items: center;
