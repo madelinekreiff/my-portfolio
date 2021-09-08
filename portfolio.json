@@ -7,7 +7,7 @@
         "imgAlt": "Jubilee Austen Portfolio Image",
         "skills": "CSS3, Flexbox, HTML5, Media Queries, Responsive Typography, Version Control",
         "tools": "Adobe Photoshop, GitHub, Visual Studio Code",
-        "description": "Using HTML and CSS, I created a responsive portfolio website for an imaginary client. I used a Photoshop design comp to extract font styles, colors and measurements to replicate the design in CSS. This was my very first web development project! I learned a lot about how to structure HTML content by thinking of the bigger picture in terms of sectioning elements to prepare for responsive design. This project was completed through Skillcrush, an online coding program.",
+        "description": "Jubilee Austen is an imaginary client who I created a responsive portfolio website for. I used CSS to replicate a Photoshop design comp and HTML to efficiently structure the elements in preparation for a responsive design. This was my very first web development project! This project was completed through Skillcrush, an online coding program.",
         "code": "https://github.com/madelinekreiff/jubilee-austen",
         "url": "https://madelinekreiff.github.io/jubilee-austen/",
         "react": "no"
@@ -20,7 +20,7 @@
         "imgAlt": "Unplugged Retreat Image",
         "skills": "CSS3, Flexbox, HTML5, Media Queries, Responsive Typography, Version Control",
         "tools": "Adobe Photoshop, GitHub, Visual Studio Code",
-        "description": "Unplugged Retreat is a website for an imaginary business that provides company retreat services. I used a Photoshop design comp to determine specific fonts, colors and spacing. When developing this website, I used a Mobile First design process to create a responsive web page for any browsing device. There are media query breakpoints in the CSS code for tablet and desktop widths as well as flexbox styles for an easy yet efficient layout. This project was completed through Skillcrush, an online coding program.",
+        "description": "Unplugged Retreat is a website for an imaginary business that provides company retreat services. I replicated a Photoshop design comp and followed a Mobile First design process to create a responsive web page for any browsing device. This project was completed through Skillcrush, an online coding program.",
         "code": "https://github.com/madelinekreiff/unplugged-retreat",
         "url": "https://madelinekreiff.github.io/unplugged-retreat/",
         "react": "no"
@@ -33,7 +33,7 @@
         "imgAlt": "Rogue Pickings Restaurant Image",
         "skills": "CSS3, Flexbox, HTML5, Media Queries, Responsive Typography, Version Control",
         "tools": "Adobe Photoshop, GitHub, Visual Studio Code",
-        "description": "In this project, I used a Photoshop design comp to create a website for an imaginary restaurant. This project focused heavily on structuring navigation bars and links in HTML as well as using flexbox and media queries to create a responsive design for any browsing device. This project was completed through Skillcrush, an online coding program.",        
+        "description": "In this project, I used a Photoshop design comp to create a website for an imaginary restaurant. This project focused heavily on structuring navigation bars and links in HTML as well as using flexbox and media queries to create a responsive design for any browsing device. This project was completed through Skillcrush, an online coding program.",
         "code": "https://github.com/madelinekreiff/rogue-pickings",
         "url": "https://madelinekreiff.github.io/rogue-pickings/",
         "react": "no"
@@ -46,7 +46,7 @@
         "imgAlt": "Recipe Cards Image",
         "skills": "CSS3, Flexbox, Floating Elements, HTML5, Layout Structuring, Media Queries, Responsive Typography, Version Control",
         "tools": "GitHub, Visual Studio Code",
-        "description": "Using CSS, I created neat and engaging recipe cards. The HTML content and structure was provided, so I could focus on mastering complex CSS styling. There was no design comp, so I estimated the measurements by hand and was given a style guide to refer back to with the required fonts and colors. This project was completed through Skillcrush, an online coding program.",        
+        "description": "Using CSS, I created clean and engaging recipe cards. The HTML content was provided, so I could focus on mastering complex CSS styling. There was no design comp, so I estimated the measurements by hand and was given a style guide to refer back to with the required fonts and colors. This project was completed through Skillcrush, an online coding program.",
         "code": "https://github.com/madelinekreiff/recipe-card",
         "url": "https://madelinekreiff.github.io/recipe-card/",
         "react": "no"
@@ -59,7 +59,7 @@
         "imgAlt": "Election Map Image",
         "skills": "Conditional Statements, Document Object Model (DOM), Functions, JavaScript, Loops, Version Control",
         "tools": "GitHub, Visual Studio Code",
-        "description": "This project is a map of the U.S. which shows the results of an imaginary election. Election results from each state are dynamically changed in a table when the mouse moves over each state on the map. The HTML content and CSS styles were provided to allow the main focus of this project to be strictly JavaScript. This project was completed through Skillcrush, an online coding program. See for yourself below!",
+        "description": "This project is a map of the U.S. which shows the results of an imaginary election. When the mouse hovers over a state, a table is dynamically changed to show election results for that state. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through Skillcrush, an online coding program. See for yourself below!",
         "code": "https://github.com/madelinekreiff/election-map",
         "url": "https://madelinekreiff.github.io/election-map/",
         "react": "no"
@@ -72,7 +72,7 @@
         "imgAlt": "GitHub Repo Gallery Image",
         "skills": "APIs, Conditional Statements, Document Object Model (DOM), Event handlers & listeners, Functions, GitHub repos, JavaScript, Loops, Version Control",
         "tools": "GitHub, Visual Studio Code",
-        "description": "In this project, I used JavaScript and the GitHub API Documentation to create a gallery of my projects hosted on GitHub. This challenge was the inspiration for the portfolio section of my website that you are currently on! By connecting with this API, the gallery is automatically updated whenever I add a new project to GitHub. It also includes a dynamic search bar for efficiency. The HTML content and CSS styles were provided to allow the main focus of this project to be strictly JavaScript. This project was completed through Skillcrush, an online coding program.",
+        "description": "In this project, I used JavaScript and the GitHub API Documentation to create a gallery of my projects hosted on GitHub. The gallery is automatically updated whenever I add a new project to GitHub. This challenge was the inspiration for the portfolio section of my website that you are currently on! The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through Skillcrush, an online coding program.",
         "code": "https://github.com/madelinekreiff/github-repo-gallery",
         "url": "https://madelinekreiff.github.io/github-repo-gallery/",
         "react": "no"
@@ -85,7 +85,7 @@
         "imgAlt": "Guess the Word Image",
         "skills": "Conditional Statements, Document Object Model (DOM), Event handlers & listeners, Functions, JavaScript, Loops, Version Control",
         "tools": "GitHub, Visual Studio Code",
-        "description": "Guess the Word is an interactive computer game that I programmed through JavaScript. The goal of the game is to guess letters until you either complete the word or enter 10 incorrect guesses. The HTML content and CSS styles were provided to allow the main focus of this project to be strictly JavaScript. This project was completed through Skillcrush, an online coding program. Want to play the game? Check out the website below!",
+        "description": "Guess the Word is an interactive computer game that I programmed through JavaScript. The goal of the game is to guess letters until you either complete the word or enter 10 incorrect guesses. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through Skillcrush, an online coding program. Play the game by visiting the website below!",
         "code": "https://github.com/madelinekreiff/guess-the-word",
         "url": "https://madelinekreiff.github.io/guess-the-word/",
         "react": "no"
@@ -98,7 +98,7 @@
         "imgAlt": "Drumkit Image",
         "skills": "Conditional Statements, Document Object Model (DOM), Event handlers & listeners, JavaScript, Loops, Version Control",
         "tools": "GitHub, Visual Studio Code",
-        "description": "In this project, I used JavaScript to play a specific audio from a drum set when a corresponding key is pressed. I used loops and conditional statements along with keyup and keydown event listeners. The HTML content and CSS styles were provided to allow the main focus of this project to be strictly JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges. Feel free to check it out yourself! (As of right now, this project is only compatible on devices with a keyboard.)",
+        "description": "In this project, I used JavaScript to play a specific audio from a drum set when a corresponding key is pressed. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges. Feel free to check it out yourself! (As of right now, this project is only compatible on devices with a keyboard.)",
         "code": "https://github.com/madelinekreiff/js30-drumkit01",
         "url": "https://madelinekreiff.github.io/js30-drumkit01/",
         "react": "no"
@@ -111,7 +111,7 @@
         "imgAlt": "Clock Image",
         "skills": "Conditional Statements, Document Object Model (DOM), Functions, JavaScript, Time Methods, Version Control",
         "tools": "GitHub, Visual Studio Code",
-        "description": "Using JavaScript, I created an automatic analog clock that tracks the current time at all hours. I used conditional statements, hand written functions and built in time methods to continuously rotate the second, minute and hour hand of the clock. The HTML content and CSS styles were provided to allow the main focus of this project to be strictly JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges.",
+        "description": "Using JavaScript, I created an automatic analog clock that tracks the current time at all hours. I completed this project by utilizing built in time methods and continuously rotating the second, minute and hour hand of the clock. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges.",
         "code": "https://github.com/madelinekreiff/js30-clock02",
         "url": "https://madelinekreiff.github.io/js30-clock02/",
         "react": "no"
@@ -124,7 +124,7 @@
         "imgAlt": "Updating CSS Variables Image",
         "skills": "CSS3, Document Object Model (DOM), Event handlers & listeners, JavaScript, Version Control",
         "tools": "GitHub, Visual Studio Code",
-        "description": "This project uses JavaScript to alter specific CSS image styles. The spacing, blurring, and background color are updated based on input from a sliding bar range through event listeners and handlers. The HTML content and CSS styles were provided to allow the main focus of this project to be strictly JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges. Go ahead and explore these changes yourself!",
+        "description": "This project uses JavaScript to alter specific CSS image styles. The spacing, blurring, and background color are updated based on input from a sliding bar range. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges. Go ahead and explore these changes yourself!",
         "code": "https://github.com/madelinekreiff/js30-css-variables03",
         "url": "https://madelinekreiff.github.io/js30-css-variables03/",
         "react": "no"
@@ -137,7 +137,7 @@
         "imgAlt": "Flex Panel Gallery Image",
         "skills": "CSS3, Conditional Statements, Cubic Beziers, Document Object Model (DOM), Event handlers & listeners, Flexbox, Functions, JavaScript, Version Control",
         "tools": "GitHub, Visual Studio Code",
-        "description": "This gallery of images was brought to life by using JavaScript to toggle on and off specific CSS classes when an image is clicked. The classes transition in and out based on a cubic bezier. The HTML content and partial CSS styles were provided to allow the main focus of this project to be JavaScript as well as exploring flexbox and transform CSS styles. This project was completed through JavaScript 30, an online platform for coding challenges. Click on each panel on the web page and see what happens! (As of right now, this project is recommended to be viewed on a desktop or device with a large screen width.)",
+        "description": "This gallery of images was brought to life by using JavaScript to toggle on and off specific CSS classes when an image is clicked. The HTML content and partial CSS styles were provided to allow the main focus of this project to be JavaScript as well as exploring flexbox and transform CSS styles. This project was completed through JavaScript 30, an online platform for coding challenges. Click on each panel on the web page and see what happens! (As of right now, this project is recommended to be viewed on a desktop or device with a large screen width.)",
         "code": "https://github.com/madelinekreiff/js30-flex-panel-gallery05",
         "url": "https://madelinekreiff.github.io/js30-flex-panel-gallery05/",
         "react": "no"
@@ -150,7 +150,7 @@
         "imgAlt": "Type Ahead Search Bar Image",
         "skills": "APIs, Conditional Statements, Document Object Model (DOM), Event handlers & listeners, Functions, JavaScript, Loops, Regular Expressions, Version Control",
         "tools": "GitHub, Visual Studio Code",
-        "description": "Using JavaScript, I created a dynamic search box for a list of cities and their corresponding states and populations. Searches create a regular expression which is used to find and display matches based on data gathered from an API. The HTML content and CSS styles were provided to allow the main focus of this project to be strictly JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges. Feel free to check it out!",
+        "description": "Using JavaScript, I created a dynamic search box for a list of cities and their corresponding states and populations. Searches create a regular expression which is used to find and display matches based on data gathered from an API. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges. Feel free to check it out!",
         "code": "https://github.com/madelinekreiff/js30-type-ahead06",
         "url": "https://madelinekreiff.github.io/js30-type-ahead06/",
         "react": "no"
@@ -163,7 +163,7 @@
         "imgAlt": "HTML5 Canvas",
         "skills": "Arrow Functions, Canvas Styling Attributes, Conditional Statements, Document Object Model (DOM), Event handlers & listeners, JavaScript, Version Control",
         "tools": "GitHub, Visual Studio Code",
-        "description": "Using HTML5 canvas and JavaScript, I created a tool that draws rainbow lines as the mouse drags across the page. I worked with different canvas attributes to change the stroke styles and colors. To listen for the dragging motion on a mousepad, I combined mousedown, mouseup and mousemove event listeners. The minimal HTML content and CSS styles were provided to allow the main focus of this project to be strictly JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges. Channel your inner artist skills by using your mouse to click and drag! (As of right now, this project is only compatible on devices with a mouse.)",
+        "description": "Using HTML5 canvas and JavaScript, I created a tool that draws rainbow lines as the mouse drags across the page. I worked with different canvas attributes to change the stroke styles and colors. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges. Channel your inner artist skills by using your mouse to click and drag! (As of right now, this project is only compatible on devices with a mouse.)",
         "code": "https://github.com/madelinekreiff/js30-html5-canvas08",
         "url": "https://madelinekreiff.github.io/js30-html5-canvas08/",
         "react": "no"
@@ -176,7 +176,7 @@
         "imgAlt": "Sticky Notes App Image",
         "skills": "ES6, Components (functional & stateful), Data flow, Document Object Model (DOM), Event handlers & listeners, JSX, Methods, Props, React, Version Control",
         "tools": "CodeSandbox",
-        "description": "The Sticky Notes App lets you create, edit and search notes. I wrote all of the code myself by learning how to use React libraries to render specific JSX.  I explored React components (stateful and functional) and got a lot of practice in using props to transfer certain data to and from different components. The app also will retain all of your previous notes if you refresh the page by utilizing your browser's local storage. This project was completed through Skillcrush, an online coding program. Create your own notes below!",
+        "description": "The Sticky Notes App lets you create, edit and search notes. I wrote all of the code myself by learning how to use React libraries to render specific JSX. The app also will retain all of your previous notes if you refresh the page by utilizing your browser's local storage. This project was completed through Skillcrush, an online coding program. Create your own notes below!",
         "code": "https://codesandbox.io/s/react-sticky-notes-9-d9r29",
         "url": "https://d9r29.csb.app/",
         "react": "yes"
@@ -189,7 +189,7 @@
         "imgAlt": "Hotels Filter Website Image",
         "skills": "ES6, Components (functional & stateful), Data flow, Document Object Model (DOM), Event handlers & listeners, JSX, Methods, Props, React, Version Control",
         "tools": "CodeSandbox",
-        "description": "In this project, I updated functional components from React code that was already provided to make them stateful. I did this by extending class components and creating overall state variables to hold the data model's current value. This and the use of props allowed the components to be reusable and render JSX for any data efficiently. The website works just as any other hotel booking website would. Search results can be filtered through checking the sidebar boxes. This project was completed through Skillcrush, an online coding program. See for yourself below!",
+        "description": "In this project, I updated functional components from React code that was already provided to make them stateful. I did this by extending class components and creating overall state variables to hold the data model's current value. This allowed the components to be reusable and render JSX for any data efficiently. The website works just as you would expect by filtering search results from the sidebar checkboxes. This project was completed through Skillcrush, an online coding program. See for yourself below!",
         "code": "https://codesandbox.io/s/stateful-hotel-filters07-3-vhkzc",
         "url": "https://vhkzc.csb.app/",
         "react": "yes"
@@ -202,7 +202,7 @@
         "imgAlt": "Name Tag Generator Image",
         "skills": "ES6, Components (functional & stateful), Data flow, Document Object Model (DOM), Event handlers & listeners, JSX, Methods, Props, React, Version Control",
         "tools": "CodeSandbox",
-        "description": "This project generates a name tag for any name you enter into the text box on the app! Using the React library, I mastered the skill of writing methods within components to update the state of the data model and render specific JSX. I created clean, efficient and most importantly reusable code by decomposing provided React code into separate components for each distinctive JSX. The use of props came in handy to hold the appropriate data needed. This project was completed through Skillcrush, an online coding program. Create your own personalized name tags below!",
+        "description": "This project generates a name tag for any name you enter into the text box. Using the React library, I created clean, efficient and most importantly reusable code by decomposing provided React code into separate components. I mastered the skill of writing methods within these components to update the state of the data model and render specific JSX. This project was completed through Skillcrush, an online coding program. Create your own personalized name tags below!",
         "code": "https://codesandbox.io/s/name-tag-generator09-2-kblbx",
         "url": "https://kblbx.csb.app/",
         "react": "yes"
@@ -215,7 +215,7 @@
         "imgAlt": "Create your own Color Palette Image",
         "skills": "Components (functional & stateful), Data flow, Document Object Model (DOM), JSX, Presentational & container components, React, Version Control",
         "tools": "CodeSandbox",
-        "description": "This app allows you to create your own color palette by selecting a color from a provided list and clicking the large square to the right. Your chosen colors will then be added to a list at the top of the screen. This project's goal was to explore the difference between presentational and container components. By updating provided React code, I got to see firsthand how presentational components focus on the visual aspect of a website, whereas container components focus on the overall layout. This project was completed through Skillcrush, an online coding program. Get creative and make your own color palette!",
+        "description": "This app allows you to create your own color palette by selecting a color from a provided list and clicking the large square to the right. Your chosen colors will then be added to a list at the top of the screen. This project's goal was to explore the difference between presentational and container components. By updating provided React code, I got to see how presentational components focus on the visual aspect of a website, whereas container components focus on the overall layout. This project was completed through Skillcrush, an online coding program. Get creative and make your own color palette!",
         "code": "https://codesandbox.io/s/presentational-components11-1-3hntg",
         "url": "https://3hntg.csb.app/",
         "react": "yes"
