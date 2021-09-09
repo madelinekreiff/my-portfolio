@@ -46,7 +46,7 @@
         "imgAlt": "Recipe Cards Image",
         "skills": "CSS3, Flexbox, Floating Elements, HTML5, Layout Structuring, Media Queries, Responsive Typography, Version Control",
         "tools": "GitHub, Visual Studio Code",
-        "description": "Using CSS, I created clean and engaging recipe cards. The HTML content was provided, so I could focus on mastering complex CSS styling. There was no design comp, so I estimated the measurements by hand and was given a style guide to refer back to with the required fonts and colors. This project was completed through Skillcrush, an online coding program.",
+        "description": "Using CSS, I created clean and engaging recipe cards. The HTML content was provided, so I could focus on mastering complex CSS styling. There was no design comp, so I estimated the measurements by hand and was given a style guide to refer back to with the required fonts and colors. This project was completed through Skillcrush, an online coding program. (As of right now, this project is best viewed on a tablet or desktop.)",
         "code": "https://github.com/madelinekreiff/recipe-card",
         "url": "https://madelinekreiff.github.io/recipe-card/",
         "react": "no"
@@ -59,7 +59,7 @@
         "imgAlt": "Election Map Image",
         "skills": "Conditional Statements, Document Object Model (DOM), Functions, JavaScript, Loops, Version Control",
         "tools": "GitHub, Visual Studio Code",
-        "description": "This project is a map of the U.S. which shows the results of an imaginary election. When the mouse hovers over a state, a table is dynamically changed to show election results for that state. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through Skillcrush, an online coding program. See for yourself below!",
+        "description": "This project is a map of the U.S. which shows the results of an imaginary election. When the mouse hovers over a state, a table is dynamically changed to show election results for that state. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through Skillcrush, an online coding program. See for yourself below! (As of right now, this project is best viewed on a tablet or desktop.)",
         "code": "https://github.com/madelinekreiff/election-map",
         "url": "https://madelinekreiff.github.io/election-map/",
         "react": "no"
@@ -98,7 +98,7 @@
         "imgAlt": "Drumkit Image",
         "skills": "Conditional Statements, Document Object Model (DOM), Event handlers & listeners, JavaScript, Loops, Version Control",
         "tools": "GitHub, Visual Studio Code",
-        "description": "In this project, I used JavaScript to play a specific audio from a drum set when a corresponding key is pressed. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges. Feel free to check it out yourself! (As of right now, this project is only compatible on devices with a keyboard.)",
+        "description": "In this project, I used JavaScript to play a specific audio from a drum set when a corresponding key is pressed. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges. Feel free to check it out yourself! (As of right now, this project is only compatible on large width devices with a keyboard.)",
         "code": "https://github.com/madelinekreiff/js30-drumkit01",
         "url": "https://madelinekreiff.github.io/js30-drumkit01/",
         "react": "no"
