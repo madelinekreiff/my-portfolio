@@ -481,8 +481,9 @@ footer {
 .project,
 .project-div,
 .info-div,
+.info
 .buttons-div,
-.info {
+.button-div {
   align-items: center;
   display: flex;
   flex-flow: row wrap;
@@ -490,7 +491,8 @@ footer {
 }
 .project-div,
 .info-div,
-.buttons-div {
+.buttons-div,
+.button-div {
   width: 100%;
 }
 .info {
@@ -533,14 +535,12 @@ footer {
   transition: 0.05s;
 }
 .code,
-.website-button-link {
+.website-button,
+.back-button {
   align-items: center;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
-  width: 100%;
-}
-.website-button-link {
-  text-decoration: none;
 }
 .website-button,
 .back-button {

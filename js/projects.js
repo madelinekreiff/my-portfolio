@@ -43,10 +43,12 @@ const getData = async function (id) {
       </div>
       <div class="buttons-div">
         <p class="code">Click <a class="here" href=${object.code} target="_blank" rel="noreferrer noopener">here</a> to see this project's&nbsp;<span class="react">GitHub Repo</span>&nbsp;& code!</p>
-        <a class="website-button-link" href=${object.url} target="_blank" rel="noreferrer noopener">
+        <div class="button-div">
           <button class="website-button">View this project's live website!</button>
-        </a>
-        <button class="back-button">Back</button>
+        </div>
+        <div class="button-div"> 
+          <button class="back-button">Back</button>
+        </div>
       </div>
     `;
     const react = div.querySelector(".react");
@@ -66,6 +68,12 @@ const getData = async function (id) {
       localStorage.removeItem("id");
       window.open("../portfolio/index.html", "_self");
     }); // end backButton event listener
+
+    // event listener for website link button
+    const websiteButton = document.querySelector(".website-button");
+    websiteButton.addEventListener("click", function() {
+      window.open(`${object.code}`, "_target");
+    }); // event websiteButton event listener
   
   }; // end displayProjectInfo
 
