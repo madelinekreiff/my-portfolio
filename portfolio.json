@@ -177,7 +177,7 @@
         "skills": "ES6, Components (functional & stateful), Data flow, Document Object Model (DOM), Event handlers & listeners, JSX, Methods, Props, React, Version Control",
         "tools": "CodeSandbox",
         "description": "The Sticky Notes App lets you create, edit and search notes. I wrote all of the code myself by learning how to use React libraries to render specific JSX. The app also will retain all of your previous notes if you refresh the page by utilizing your browser's local storage. This project was completed through Skillcrush, an online coding program. Create your own notes below!",
-        "code": "https://codesandbox.io/s/react-sticky-notes-9-d9r29",
+        "code": "https://codesandbox.io/s/react-sticky-notes-final-d9r29",
         "url": "https://d9r29.csb.app/",
         "react": "yes"
       },
@@ -190,7 +190,7 @@
         "skills": "ES6, Components (functional & stateful), Data flow, Document Object Model (DOM), Event handlers & listeners, JSX, Methods, Props, React, Version Control",
         "tools": "CodeSandbox",
         "description": "In this project, I updated functional components from React code that was already provided to make them stateful. I did this by extending class components and creating overall state variables to hold the data model's current value. This allowed the components to be reusable and render JSX for any data efficiently. The website works just as you would expect by filtering search results from the sidebar checkboxes. This project was completed through Skillcrush, an online coding program. See for yourself below!",
-        "code": "https://codesandbox.io/s/stateful-hotel-filters07-3-vhkzc",
+        "code": "https://codesandbox.io/s/react-hotels-filter-final-vhkzc",
         "url": "https://vhkzc.csb.app/",
         "react": "yes"
       },
@@ -203,7 +203,7 @@
         "skills": "ES6, Components (functional & stateful), Data flow, Document Object Model (DOM), Event handlers & listeners, JSX, Methods, Props, React, Version Control",
         "tools": "CodeSandbox",
         "description": "This project generates a name tag for any name you enter into the text box. Using the React library, I created clean, efficient and most importantly reusable code by decomposing provided React code into separate components. I mastered the skill of writing methods within these components to update the state of the data model and render specific JSX. This project was completed through Skillcrush, an online coding program. Create your own personalized name tags below!",
-        "code": "https://codesandbox.io/s/name-tag-generator09-2-kblbx",
+        "code": "https://codesandbox.io/s/react-name-tag-generator-final-kblbx",
         "url": "https://kblbx.csb.app/",
         "react": "yes"
       },
@@ -216,7 +216,7 @@
         "skills": "Components (functional & stateful), Data flow, Document Object Model (DOM), JSX, Presentational & container components, React, Version Control",
         "tools": "CodeSandbox",
         "description": "This app allows you to create your own color palette by selecting a color from a provided list and clicking the large square to the right. Your chosen colors will then be added to a list at the top of the screen. This project's goal was to explore the difference between presentational and container components. By updating provided React code, I got to see how presentational components focus on the visual aspect of a website, whereas container components focus on the overall layout. This project was completed through Skillcrush, an online coding program. Get creative and make your own color palette!",
-        "code": "https://codesandbox.io/s/presentational-components11-1-3hntg",
+        "code": "https://codesandbox.io/s/react-color-palette-final-3hntg",
         "url": "https://3hntg.csb.app/",
         "react": "yes"
       }
