@@ -189,7 +189,7 @@
         "imgAlt": "Hotels Filter Website Image",
         "skills": "ES6, Components (functional & stateful), Data flow, Document Object Model (DOM), Event handlers & listeners, JSX, Methods, Props, React, Version Control",
         "tools": "CodeSandbox",
-        "description": "In this project, I updated functional components from React code that was already provided to make them stateful. I did this by extending class components and creating overall state variables to hold the data model's current value. This allowed the components to be reusable and render JSX for any data efficiently. The website works just as you would expect by filtering search results from the sidebar checkboxes. This project was completed through Skillcrush, an online coding program. See for yourself below!",
+        "description": "In this project, I updated functional components from React code that was already provided to make them stateful. I did this by extending class components and creating overall state variables to hold the data model's current value. This allowed the components to be reusable and render JSX for any data efficiently. The website works just as you would expect by filtering search results from the sidebar checkboxes. This project was completed through Skillcrush, an online coding program. See for yourself below! (As of right now, this project is best viewed on a tablet or desktop.)",
         "code": "https://codesandbox.io/s/react-hotels-filter-final-vhkzc",
         "url": "https://vhkzc.csb.app/",
         "react": "yes"
