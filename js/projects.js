@@ -72,7 +72,7 @@ const getData = async function (id) {
     // event listener for website link button
     const websiteButton = document.querySelector(".website-button");
     websiteButton.addEventListener("click", function() {
-      window.open(`${object.code}`, "_target");
+      window.open(`${object.url}`, "_target");
     }); // event websiteButton event listener
   
   }; // end displayProjectInfo
