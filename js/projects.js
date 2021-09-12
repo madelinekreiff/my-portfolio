@@ -51,10 +51,6 @@ const getData = async function (id) {
         </div>
       </div>
     `;
-    const react = div.querySelector(".react");
-    if (object.react === "yes") {
-      react.innerText = "React CodeSandbox";
-    }
     div.classList.add("project-div");
   
     // display new info page
