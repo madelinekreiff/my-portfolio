@@ -203,8 +203,8 @@
         "skills": "ES6, Components (functional & stateful), Data flow, Document Object Model (DOM), Event handlers & listeners, JSX, Methods, Props, React, Version Control",
         "tools": "CodeSandbox, GitHub",
         "description": "This project generates a name tag for any name you enter into the text box. Using the React library, I created clean, efficient and most importantly reusable code by decomposing provided React code into separate components. I mastered the skill of writing methods within these components to update the state of the data model and render specific JSX. This project was completed through Skillcrush, an online coding program. Create your own personalized name tags below!",
-        "code": "https://codesandbox.io/s/react-name-tag-generator-final-kblbx",
-        "url": "https://kblbx.csb.app/",
+        "code": "https://github.com/madelinekreiff/react-name-tag-generator",
+        "url": "https://madelinekreiff.github.io/react-name-tag-generator/",
         "react": "yes"
       },
   
