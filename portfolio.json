@@ -216,8 +216,8 @@
         "skills": "Components (functional & stateful), Data flow, Document Object Model (DOM), JSX, Presentational & container components, React, Version Control",
         "tools": "CodeSandbox, GitHub",
         "description": "This app allows you to create your own color palette by selecting a color from a provided list and clicking the large square to the right. Your chosen colors will then be added to a list at the top of the screen. This project's goal was to explore the difference between presentational and container components. By updating provided React code, I got to see how presentational components focus on the visual aspect of a website, whereas container components focus on the overall layout. This project was completed through Skillcrush, an online coding program. Get creative and make your own color palette!",
-        "code": "https://codesandbox.io/s/react-color-palette-final-3hntg",
-        "url": "https://3hntg.csb.app/",
+        "code": "https://github.com/madelinekreiff/react-color-palette",
+        "url": "https://madelinekreiff.github.io/react-color-palette/",
         "react": "yes"
       }
     ],
