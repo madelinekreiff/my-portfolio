@@ -177,8 +177,8 @@
         "skills": "ES6, Components (functional & stateful), Data flow, Document Object Model (DOM), Event handlers & listeners, JSX, Methods, Props, React, Version Control",
         "tools": "CodeSandbox",
         "description": "The Sticky Notes App lets you create, edit and search notes. I wrote all of the code myself by learning how to use React libraries to render specific JSX. The app also will retain all of your previous notes if you refresh the page by utilizing your browser's local storage. This project was completed through Skillcrush, an online coding program. Create your own notes below!",
-        "code": "https://codesandbox.io/s/react-sticky-notes-final-d9r29",
-        "url": "https://d9r29.csb.app/",
+        "code": "https://codesandbox.io/s/github/madelinekreiff/react-sticky-notes",
+        "url": "https://madelinekreiff.github.io/react-sticky-notes/",
         "react": "yes"
       },
   
