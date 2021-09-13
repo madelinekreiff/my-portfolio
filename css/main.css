@@ -520,6 +520,7 @@ footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin-bottom: 50px;
   width: 100%;
 }
 .here {
@@ -557,7 +558,6 @@ footer {
 .website-button {
   font-size: 1.125em;
   height: 80px;
-  margin-top: 50px;
   width: 350px;
 }
 .back-button {
