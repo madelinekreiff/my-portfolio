@@ -286,8 +286,8 @@ footer {
   box-sizing: border-box;
 }
 .fade {
-  animation: 1.5s ease-out fade;
-  -webkit-animation: 1.5s ease-out fade;
+  animation: fade 1.5s infinite;
+  -webkit-animation: fade 1.5s infinite;
 }
 .dots-div {
   text-align: center;
