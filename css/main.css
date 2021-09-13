@@ -850,7 +850,7 @@ footer {
     font-size: 1.25em;
   }
   .here {
-    padding: 0 6px;
+    padding: 0 6px 1px 6px;
   }
   .here:hover {
     font-size: 1.375em;
