@@ -526,7 +526,7 @@ footer {
   color: #10598f;
   font-family: 'Permanent Marker', cursive;
   font-size: 1.125em;
-  padding: 0 4px 1px 4px;
+  padding: 0 4px 2px 4px;
   text-decoration: none;
 }
 .here:hover {
@@ -850,7 +850,7 @@ footer {
     font-size: 1.25em;
   }
   .here {
-    padding: 0 6px 1px 6px;
+    padding: 0 6px 4px 6px;
   }
   .here:hover {
     font-size: 1.375em;
