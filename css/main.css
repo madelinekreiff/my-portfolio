@@ -545,6 +545,7 @@ footer {
 }
 .code,
 .website-button,
+.website-button-link,
 .back-button {
   align-items: center;
   display: flex;
@@ -562,6 +563,7 @@ footer {
 }
 .website-button-link {
   text-decoration: none;
+  width: 100%;
 }
 .website-button {
   font-size: 1.125em;
