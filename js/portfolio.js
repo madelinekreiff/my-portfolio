@@ -6,6 +6,6 @@ projectItems.addEventListener("click", function(e) {
   if (e.target.matches(".hover")) {
     const id = e.target.id;
     localStorage.setItem("id", id);
-    window.open("../projects/index.html", "_self");
+    window.open("../projects", "_self");
   }
 }); // end projectItems event listener
