@@ -145,6 +145,7 @@ h4 {
   font-size: 1.5em;
   font-weight: 400;
   margin: 0;
+  padding-right: 60px;
 }
 p {
   font-size: 1em;
@@ -185,6 +186,13 @@ header {
   font-family: 'PT Sans', sans-serif;
   justify-content: center;
   padding: 15px 0;
+}
+.logo {
+  border: none;
+  height: 40px;
+  justify-content: flex-start;
+  padding-right: 20px;
+  width: 40px;
 }
 .header-divider {
   border: 1px solid #34677a;
@@ -713,6 +721,13 @@ footer {
 
 @media only screen and (max-width: 300px) {
   /* ---------- XS Screen Styles ---------- */
+  h4 {
+    font-size: 1.25em;
+  }
+  .logo {
+    height: 35px;
+    width: 35px;
+  }
   .about-sq {
     height: 320px;
   }
@@ -732,6 +747,7 @@ footer {
   }
   h4 {
     font-size: 1.75em;
+    padding-right: 70px;
   }
   p {
     font-size: 1.125em;
@@ -741,7 +757,11 @@ footer {
     max-width: 700px;
   }
 
-  /* ----------  Nav ----------*/
+  /* ----------  Header & Nav ----------*/
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
   nav ul li a {
     font-size: 1.375em;
   }
@@ -917,12 +937,9 @@ footer {
     margin: 0;
     width: 0;
   }
-  header h1 {
-    width: 17%;
-  }
   nav {
     justify-content: flex-end;
-    width: 83%;
+    width: 68%;
   }
   nav ul {
     flex-flow: row nowrap;
