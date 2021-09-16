@@ -728,7 +728,7 @@ footer {
   .content-wrapper {
     margin: 0 10px;
   }
-  h4 {
+  header h4 {
     font-size: 1.125em;
     width: 10%;
   }
@@ -739,7 +739,7 @@ footer {
   .about-sq {
     height: 320px;
   }
-.copyright {
+  .copyright {
     font-size: 0.875em;
     min-width: 0;
   }
