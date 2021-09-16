@@ -145,7 +145,6 @@ h4 {
   font-size: 1.5em;
   font-weight: 400;
   margin: 0;
-  padding-right: 60px;
 }
 p {
   font-size: 1em;
@@ -193,6 +192,9 @@ header {
   justify-content: flex-start;
   padding-right: 20px;
   width: 40px;
+}
+header h4 {
+  padding-right: 60px;
 }
 .header-divider {
   border: 1px solid #34677a;
@@ -757,7 +759,6 @@ footer {
   }
   h4 {
     font-size: 1.75em;
-    padding-right: 70px;
   }
   p {
     font-size: 1.125em;
@@ -771,6 +772,9 @@ footer {
   .logo {
     height: 50px;
     width: 50px;
+  }
+  header h4 {
+    padding-right: 70px;
   }
   nav ul li a {
     font-size: 1.375em;
