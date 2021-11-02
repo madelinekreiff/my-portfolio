@@ -1,6 +1,6 @@
 # my-portfolio
 
-## gh-pages branch
+## gh-pages
 This branch contains all of the data needed for my portfolio website in order to create clean, concise & reusable code.
 
 
