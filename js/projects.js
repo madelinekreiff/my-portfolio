@@ -73,7 +73,6 @@ const getData = async function (id) {
     backButton.addEventListener("click", function() {
       title.innerText = "";
       project.innerHTML = "";
-      localStorage.removeItem("id");
       window.open("../portfolio", "_self");
     }); // end backButton event listener
   
