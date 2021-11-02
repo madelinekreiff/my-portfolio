@@ -1,0 +1,242 @@
+{
+  "projects": [
+    {
+      "htmlCss": [
+        {
+          "id": "jubileeAusten",
+          "name": "Jubilee Austen Portfolio",
+          "imgSrc": "../img/html-css/jubilee-austen.png",
+          "imgAlt": "Jubilee Austen Portfolio Image",
+          "skills": "CSS3, Flexbox, HTML5, Media Queries, Responsive Typography, Version Control",
+          "tools": "Adobe Photoshop, GitHub, Visual Studio Code",
+          "description": "Jubilee Austen is an imaginary client who I created a responsive portfolio website for. I used CSS to replicate a Photoshop design comp and HTML to efficiently structure the elements in preparation for a responsive design. This was my very first web development project! This project was completed through Skillcrush, an online coding program.",
+          "code": "https://github.com/madelinekreiff/jubilee-austen",
+          "url": "https://madelinekreiff.github.io/jubilee-austen/"
+        },
+    
+        {
+          "id": "unpluggedRetreat",
+          "name": "Unplugged Retreat",
+          "imgSrc": "../img/html-css/unplugged-retreat.png",
+          "imgAlt": "Unplugged Retreat Image",
+          "skills": "CSS3, Flexbox, HTML5, Media Queries, Responsive Typography, Version Control",
+          "tools": "Adobe Photoshop, GitHub, Visual Studio Code",
+          "description": "Unplugged Retreat is a website for an imaginary business that provides company retreat services. I replicated a Photoshop design comp and followed a Mobile First design process to create a responsive web page for any browsing device. This project was completed through Skillcrush, an online coding program.",
+          "code": "https://github.com/madelinekreiff/unplugged-retreat",
+          "url": "https://madelinekreiff.github.io/unplugged-retreat/"
+        },
+      
+        {
+          "id": "roguePickings",
+          "name": "Rogue Pickings Restaurant",
+          "imgSrc": "../img/html-css/rogue-pickings.png",
+          "imgAlt": "Rogue Pickings Restaurant Image",
+          "skills": "CSS3, Flexbox, HTML5, Media Queries, Responsive Typography, Version Control",
+          "tools": "Adobe Photoshop, GitHub, Visual Studio Code",
+          "description": "In this project, I used a Photoshop design comp to create a website for an imaginary restaurant. This project focused heavily on structuring navigation bars and links in HTML as well as using flexbox and media queries to create a responsive design for any browsing device. This project was completed through Skillcrush, an online coding program.",
+          "code": "https://github.com/madelinekreiff/rogue-pickings",
+          "url": "https://madelinekreiff.github.io/rogue-pickings/"
+        },
+      
+        {
+          "id": "recipeCard",
+          "name": "Recipe Cards",
+          "imgSrc": "../img/html-css/recipe-card.png",
+          "imgAlt": "Recipe Cards Image",
+          "skills": "CSS3, Flexbox, Floating Elements, HTML5, Layout Structuring, Media Queries, Responsive Typography, Version Control",
+          "tools": "GitHub, Visual Studio Code",
+          "description": "Using CSS, I created clean and engaging recipe cards. The HTML content was provided, so I could focus on mastering complex CSS styling. There was no design comp, so I estimated the measurements by hand and was given a style guide to refer back to with the required fonts and colors. This project was completed through Skillcrush, an online coding program. (As of right now, this project is best viewed on a tablet or desktop.)",
+          "code": "https://github.com/madelinekreiff/recipe-card",
+          "url": "https://madelinekreiff.github.io/recipe-card/"
+        }
+      ],
+
+      "javascript": [
+        {
+          "id": "electionMap",
+          "name": "Election Map",
+          "imgSrc": "../img/javascript/election-map.png",
+          "imgAlt": "Election Map Image",
+          "skills": "Conditional Statements, Document Object Model (DOM), Functions, JavaScript, Loops, Version Control",
+          "tools": "GitHub, Visual Studio Code",
+          "description": "This project is a map of the U.S. which shows the results of an imaginary election. When the mouse hovers over a state, a table is dynamically changed to show election results for that state. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through Skillcrush, an online coding program. See for yourself below! (As of right now, this project is best viewed on a tablet or desktop.)",
+          "code": "https://github.com/madelinekreiff/election-map",
+          "url": "https://madelinekreiff.github.io/election-map/"
+        },
+    
+        {
+          "id": "githubRepo",
+          "name": "GitHub Repo Gallery",
+          "imgSrc": "../img/javascript/github-repo-gallery.png",
+          "imgAlt": "GitHub Repo Gallery Image",
+          "skills": "APIs, Conditional Statements, Document Object Model (DOM), Event handlers & listeners, Functions, GitHub repos, JavaScript, Loops, Version Control",
+          "tools": "GitHub, Visual Studio Code",
+          "description": "In this project, I used JavaScript and the GitHub API Documentation to create a gallery of my projects hosted on GitHub. The gallery is automatically updated whenever I add a new project to GitHub. This challenge was the inspiration for the portfolio section of my website that you are currently on! The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through Skillcrush, an online coding program.",
+          "code": "https://github.com/madelinekreiff/github-repo-gallery",
+          "url": "https://madelinekreiff.github.io/github-repo-gallery/"
+        },
+    
+        {
+          "id": "guessTheWord",
+          "name": "Guess the Word",
+          "imgSrc": "../img/javascript/guess-the-word.png",
+          "imgAlt": "Guess the Word Image",
+          "skills": "Conditional Statements, Document Object Model (DOM), Event handlers & listeners, Functions, JavaScript, Loops, Version Control",
+          "tools": "GitHub, Visual Studio Code",
+          "description": "Guess the Word is an interactive computer game that I programmed through JavaScript. The goal of the game is to guess letters until you either complete the word or enter 10 incorrect guesses. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through Skillcrush, an online coding program. Play the game by visiting the website below!",
+          "code": "https://github.com/madelinekreiff/guess-the-word",
+          "url": "https://madelinekreiff.github.io/guess-the-word/"
+        },
+    
+        {
+          "id": "drumkit",
+          "name": "Drumkit",
+          "imgSrc": "../img/javascript/drumkit.png",
+          "imgAlt": "Drumkit Image",
+          "skills": "Conditional Statements, Document Object Model (DOM), Event handlers & listeners, JavaScript, Loops, Version Control",
+          "tools": "GitHub, Visual Studio Code",
+          "description": "In this project, I used JavaScript to play a specific audio from a drum set when a corresponding key is pressed. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges. Feel free to check it out yourself! (As of right now, this project is only compatible on large width devices with a keyboard.)",
+          "code": "https://github.com/madelinekreiff/js30-drumkit01",
+          "url": "https://madelinekreiff.github.io/js30-drumkit01/"
+        },
+    
+        {
+          "id": "clock",
+          "name": "Clock",
+          "imgSrc": "../img/javascript/clock.png",
+          "imgAlt": "Clock Image",
+          "skills": "Conditional Statements, Document Object Model (DOM), Functions, JavaScript, Time Methods, Version Control",
+          "tools": "GitHub, Visual Studio Code",
+          "description": "Using JavaScript, I created an automatic analog clock that tracks the current time at all hours. I completed this project by utilizing built in time methods and continuously rotating the second, minute and hour hand of the clock. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges.",
+          "code": "https://github.com/madelinekreiff/js30-clock02",
+          "url": "https://madelinekreiff.github.io/js30-clock02/"
+        },
+    
+        {
+          "id": "cssVariables",
+          "name": "Updating CSS Variables",
+          "imgSrc": "../img/javascript/css-variables.png",
+          "imgAlt": "Updating CSS Variables Image",
+          "skills": "CSS3, Document Object Model (DOM), Event handlers & listeners, JavaScript, Version Control",
+          "tools": "GitHub, Visual Studio Code",
+          "description": "This project uses JavaScript to alter specific CSS image styles. The spacing, blurring, and background color are updated based on input from a sliding bar range. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges. Go ahead and explore these changes yourself!",
+          "code": "https://github.com/madelinekreiff/js30-css-variables03",
+          "url": "https://madelinekreiff.github.io/js30-css-variables03/"
+        },
+    
+        {
+          "id": "flexPanels",
+          "name": "Flex Panel Gallery",
+          "imgSrc": "../img/javascript/flex-panels.png",
+          "imgAlt": "Flex Panel Gallery Image",
+          "skills": "CSS3, Conditional Statements, Cubic Beziers, Document Object Model (DOM), Event handlers & listeners, Flexbox, Functions, JavaScript, Version Control",
+          "tools": "GitHub, Visual Studio Code",
+          "description": "This gallery of images was brought to life by using JavaScript to toggle on and off specific CSS classes when an image is clicked. The HTML content and partial CSS styles were provided to allow the main focus of this project to be JavaScript as well as exploring flexbox and transform CSS styles. This project was completed through JavaScript 30, an online platform for coding challenges. Click on each panel on the web page and see what happens! (As of right now, this project is recommended to be viewed on a desktop or device with a large screen width.)",
+          "code": "https://github.com/madelinekreiff/js30-flex-panel-gallery05",
+          "url": "https://madelinekreiff.github.io/js30-flex-panel-gallery05/"
+        },
+    
+        {
+          "id": "typeAhead",
+          "name": "Type Ahead Search Bar",
+          "imgSrc": "../img/javascript/type-ahead.png",
+          "imgAlt": "Type Ahead Search Bar Image",
+          "skills": "APIs, Conditional Statements, Document Object Model (DOM), Event handlers & listeners, Functions, JavaScript, Loops, Regular Expressions, Version Control",
+          "tools": "GitHub, Visual Studio Code",
+          "description": "Using JavaScript, I created a dynamic search box for a list of cities and their corresponding states and populations. Searches create a regular expression which is used to find and display matches based on data gathered from an API. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges. Feel free to check it out!",
+          "code": "https://github.com/madelinekreiff/js30-type-ahead06",
+          "url": "https://madelinekreiff.github.io/js30-type-ahead06/"
+        },
+    
+        {
+          "id": "html5Canvas",
+          "name": "HTML5 Canvas",
+          "imgSrc": "../img/javascript/html5-canvas.png",
+          "imgAlt": "HTML5 Canvas",
+          "skills": "Arrow Functions, Canvas Styling Attributes, Conditional Statements, Document Object Model (DOM), Event handlers & listeners, JavaScript, Version Control",
+          "tools": "GitHub, Visual Studio Code",
+          "description": "Using HTML5 canvas and JavaScript, I created a tool that draws rainbow lines as the mouse drags across the page. I worked with different canvas attributes to change the stroke styles and colors. The HTML and CSS were provided to allow the main focus of this project to be JavaScript. This project was completed through JavaScript 30, an online platform for coding challenges. Channel your inner artist skills by using your mouse to click and drag! (As of right now, this project is only compatible on devices with a mouse.)",
+          "code": "https://github.com/madelinekreiff/js30-html5-canvas08",
+          "url": "https://madelinekreiff.github.io/js30-html5-canvas08/"
+        }
+      ],
+
+      "react": [      
+        {
+          "id": "stickyNotes",
+          "name": "Sticky Notes App",
+          "imgSrc": "../img/react/sticky-notes.png",
+          "imgAlt": "Sticky Notes App Image",
+          "skills": "ES6, Components (functional & stateful), Data flow, Document Object Model (DOM), Event handlers & listeners, JSX, Methods, Props, React, Version Control",
+          "tools": "CodeSandbox, GitHub",
+          "description": "The Sticky Notes App lets you create, edit and search notes. I wrote all of the code myself by learning how to use React libraries to render specific JSX. The app also will retain all of your previous notes if you refresh the page by utilizing your browser's local storage. This project was completed through Skillcrush, an online coding program. Create your own notes below!",
+          "code": "https://github.com/madelinekreiff/react-sticky-notes",
+          "url": "https://madelinekreiff.github.io/react-sticky-notes/"
+      },
+  
+      {
+        "id": "hotelsFilter",
+        "name": "Hotels Filter Website",
+        "imgSrc": "../img/react/hotels-filter.png",
+        "imgAlt": "Hotels Filter Website Image",
+        "skills": "ES6, Components (functional & stateful), Data flow, Document Object Model (DOM), Event handlers & listeners, JSX, Methods, Props, React, Version Control",
+        "tools": "CodeSandbox, GitHub",
+        "description": "In this project, I updated functional components from React code that was already provided to make them stateful. I did this by extending class components and creating overall state variables to hold the data model's current value. This allowed the components to be reusable and render JSX for any data efficiently. The website works just as you would expect by filtering search results from the sidebar checkboxes. This project was completed through Skillcrush, an online coding program. See for yourself below! (As of right now, this project is best viewed on a tablet or desktop.)",
+        "code": "https://github.com/madelinekreiff/react-hotels-filter",
+        "url": "https://madelinekreiff.github.io/react-hotels-filter/"
+      },
+  
+      {
+        "id": "nameTag",
+        "name": "Name Tag Generator",
+        "imgSrc": "../img/react/name-tag-generator.png",
+        "imgAlt": "Name Tag Generator Image",
+        "skills": "ES6, Components (functional & stateful), Data flow, Document Object Model (DOM), Event handlers & listeners, JSX, Methods, Props, React, Version Control",
+        "tools": "CodeSandbox, GitHub",
+        "description": "This project generates a name tag for any name you enter into the text box. Using the React library, I created clean, efficient and most importantly reusable code by decomposing provided React code into separate components. I mastered the skill of writing methods within these components to update the state of the data model and render specific JSX. This project was completed through Skillcrush, an online coding program. Create your own personalized name tags below!",
+        "code": "https://github.com/madelinekreiff/react-name-tag-generator",
+        "url": "https://madelinekreiff.github.io/react-name-tag-generator/"
+      },
+  
+      {
+        "id": "colorPalette",
+        "name": "Create your own Color Palette",
+        "imgSrc": "../img/react/color-palette.png",
+        "imgAlt": "Create your own Color Palette Image",
+        "skills": "Components (functional & stateful), Data flow, Document Object Model (DOM), JSX, Presentational & container components, React, Version Control",
+        "tools": "CodeSandbox, GitHub",
+        "description": "This app allows you to create your own color palette by selecting a color from a provided list and clicking the large square to the right. Your chosen colors will then be added to a list at the top of the screen. This project's goal was to explore the difference between presentational and container components. By updating provided React code, I got to see how presentational components focus on the visual aspect of a website, whereas container components focus on the overall layout. This project was completed through Skillcrush, an online coding program. Get creative and make your own color palette!",
+        "code": "https://github.com/madelinekreiff/react-color-palette",
+        "url": "https://madelinekreiff.github.io/react-color-palette/"
+      }
+      ]
+    }
+  ],
+ 
+  "about": [
+    {
+      "id": "grad",
+      "text": "After graduating from the University of California, Santa Barbara with a degree in Statistical Science, I originally wanted to pursue a career in data analysis. The programming languages and technology always intrigued me."
+    },
+    {
+      "id": "art",
+      "text": "However, I realized I needed more creativity, which led me to discover front-end web development. It allows me to combine creativity, while still being involved in the technology world."
+    },
+    {
+      "id": "trophy",
+      "text": "I'm incredibly proud of this career change, and I love the feeling of accomplishment I get from seeing a project go live on the internet. I can't wait to continue growing in web development!"
+    },
+    {
+      "id": "beach",
+      "text": "A fun fact about me is I love the beach, hence the beach theme throughout this website."
+    },
+    {
+      "id": "bullhorn",
+      "text": "Also, I was a Division 1 cheerleader for UC Santa Barbara. (Go Gauchos!) I even had the opportunity to be a team leader and manage the administrative operations and finances of the organization."
+    },
+    {
+      "id": "lightbulb",
+      "text": "One of my future goals is to create a personal web page commemorating my time as a collegiate cheerleader. Ideally, it would incorporate my favorite videos and photos as well as the positive and impactful changes I made to the team as a leader."
+    }
+  ]
+}
