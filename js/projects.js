@@ -10,13 +10,23 @@ const id = localStorage.getItem("id");
 const getData = async function (id) {
   const res = await fetch("https://madelinekreiff.github.io/my-portfolio/portfolio.json");
   let data = await res.json();
-  data = data.projects;
+  data = data.projects[0];
   filterData(data, id);
 }; // end getData
   
   // function to filter data array above to get desired object
   const filterData = (data, id) => {
-    for (let object of data) {
+    for (let object of data.htmlCss) {
+      if (object.id === id) {
+        displayProjectInfo(object);
+      }
+    }
+    for (let object of data.javascript) {
+      if (object.id === id) {
+        displayProjectInfo(object);
+      }
+    }
+    for (let object of data.react) {
       if (object.id === id) {
         displayProjectInfo(object);
       }
